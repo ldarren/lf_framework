@@ -1,5 +1,5 @@
-Debug/
-Release/
+debug/
+release/
 obj/
 *.user
 *.ncb
