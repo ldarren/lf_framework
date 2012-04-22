@@ -1,0 +1,54 @@
+[material]
+name = Mat0
+pwname = Steel
+[colormaterial]
+ambient= 255 , 128 , 192 , 255
+diffuse= 255 , 128 , 192 , 255 
+specular= 76 , 38 , 58 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.3125
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Black
+[colormaterial]
+ambient= 0 , 0 , 0 , 255
+diffuse= 0 , 0 , 0 , 255
+specular= 0 , 0 , 0 , 255
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[geometry]
+filename=Festo Lagerbock LNG 100.lfmg
+name=Festo Lagerbock LNG 100
+[/geometry]
+
+[mesh]
+name=Mesh0
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Festo Lagerbock LNG 100/vMat0
+indexbuffer=Festo Lagerbock LNG 100/iMat0
+firstindex=0
+numindexes=4266
+[/mesh]
+
+
+[mesh]
+name=mOutline
+type=EPT_LINE_LIST
+vertexbuffer=Festo Lagerbock LNG 100/vOutline
+indexbuffer=Festo Lagerbock LNG 100/iOutline
+firstindex=0
+numindexes=1270
+[/mesh]
+
+[model]
+name=Festo Lagerbock LNG 100
+mesh=Mesh0
+mesh=mOutline
+material=Mat0
+material=Black
+[/model]

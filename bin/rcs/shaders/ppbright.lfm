@@ -1,0 +1,44 @@
+[renderfeature]
+name=ERPF_PP_BRIGHTNESS
+[ERPL_POSTPROCESS]
+	pass=ERP_MAIN
+[/ERPL_POSTPROCESS]
+[/renderfeature]
+
+[renderpass]
+    feature = ERPF_PP_BRIGHTNESS
+    lang = glsl
+    quality = 100
+    pipeline=ERPL_POSTPROCESS
+    pass=ERP_MAIN
+    stage = ERPS_MAIN
+    numtextures = 1
+
+	[vertexshader]
+		code = \
+                void main()\
+                {\
+                    gl_TexCoord[0] = gl_MultiTexCoord0;\
+                    gl_Position = ftransform();\
+                }
+	[/vertexshader]
+
+	[pixelshader]
+		code = \
+                uniform sampler2D tex0;\
+                uniform float Brightness; \
+                void main()\
+                {\
+                \
+                    gl_FragColor = texture2D(tex0,gl_TexCoord[0].st) * Brightness;\
+                }
+	[/pixelshader]
+
+	[param]
+		name=Brightness
+		type=ERPPT_F32
+		size=1
+		source=ERPPS_NODE
+		default=1.0
+	[/param]
+[/renderpass]

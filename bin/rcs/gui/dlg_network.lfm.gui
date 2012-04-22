@@ -1,0 +1,8 @@
+numberAuxLinesY=0
+widget_id_7=txt_network_port
+showAuxliliaryLines=1
+widget_id_3=txt_network_name
+LayoutFile=dlg_network.lfm
+widget_id_5=txt_network_ip
+codegen=
+numberAuxLinesX=0

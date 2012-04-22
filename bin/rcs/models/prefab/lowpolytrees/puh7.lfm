@@ -1,0 +1,73 @@
+# PyLFM Version (0, 3, 9)
+# Lightfeather LFMG Version 3
+# AUTHOR: 
+# COPYRIGHT: 
+# DESIGNER: Blender v243
+# MODIFIED: October 10, 2007
+[geometry]
+filename=puh7.lfmg
+name=puh7
+[/geometry]
+[mesh]
+name=plant_pmat1
+type=EPT_TRIANGLE_LIST
+vertexbuffer=puh7/plant_pmat1_vb0
+indexbuffer=puh7/plant_pmat1_ib0
+firstindex=0
+numindexes=14748
+[/mesh]
+[mesh]
+name=plant_pmat1_matdiv1
+type=EPT_TRIANGLE_LIST
+vertexbuffer=puh7/plant_pmat1_vb0
+indexbuffer=puh7/plant_pmat1_ib1
+firstindex=0
+numindexes=366
+[/mesh]
+[material]
+name=pmat7
+feature=ERPF_TRANSPARENT
+[colormaterial]
+ambient=151,169,151,255
+diffuse=88,104,79,2
+emissive=0,0,0,255
+specular=42,56,42,255
+shininess=0
+[/colormaterial]
+[texture]
+type=2D
+filename=textures\09branch.tga
+name=09branch.tga.001
+[/texture]
+[renderstate]
+type=ERST_CULLING
+enabled=false
+[/renderstate]
+[/material]
+[material]
+name=pmat1
+feature=ERPF_DIFFUSEMAP
+[colormaterial]
+ambient=137,106,106,255
+diffuse=98,81,54,255
+emissive=0,0,0,255
+specular=42,42,42,255
+shininess=0
+[/colormaterial]
+[texture]
+type=2D
+filename=textures\01bark.tga
+name=01bark.tga.001
+[/texture]
+[renderstate]
+type=ERST_CULLING
+enabled=false
+[/renderstate]
+[/material]
+[model]
+name=plant_pmat1
+mesh=plant_pmat1
+mesh=plant_pmat1_matdiv1
+material=pmat1
+material=pmat7
+[/model]

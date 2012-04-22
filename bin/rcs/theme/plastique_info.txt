@@ -1,0 +1,3 @@
+The original skin on which we based the plastique gui skin was created by Vendicator and is used with his permission. 
+See http://vendicator.platiqueweb.com for more of his nice work.
+

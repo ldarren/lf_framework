@@ -1,0 +1,51 @@
+	uniform sampler2D tex0;
+	uniform sampler2D tex1;
+	uniform sampler2D tex2;
+
+	uniform float scale;
+	uniform float bias;
+	
+	varying vec3 eyeVec;
+	varying vec3 lightVec;
+	
+	void main()
+	{
+		// parallax part
+		vec3 uv = vec3(gl_TexCoord[0].st,0.0);
+		vec3 eye = normalize(eyeVec);
+		
+		for(int i = 0; i < 4; i++)
+		{
+			float height = texture2D(tex1, uv.xy).r;
+			vec3 normal = texture2D(tex2, uv.xy).rgb * 2.0 - 1.0;
+			float v = height * scale - bias;
+			uv +=  (v - uv.z) * normal.z * eye;
+		}
+
+		vec3 norm = texture2D(tex2, uv.xy).rgb * 2.0 - 1.0;
+
+		// light part
+		vec4 specular = vec4(0.0);
+		vec4 diffuse = vec4(texture2D(tex0, uv.xy).rgb,1.0) * gl_LightSource[0].diffuse;
+		
+		float dist = length(lightVec);
+		float attenuation = 1.0 / (gl_LightSource[0].constantAttenuation +
+															gl_LightSource[0].linearAttenuation * dist +
+															gl_LightSource[0].quadraticAttenuation * dist * dist);
+		vec3 lightVector = normalize(lightVec);
+		float nxDir = max(0.0, dot(norm, lightVector));
+		diffuse = diffuse * nxDir * attenuation;
+
+		if(nxDir != 0.0)
+		{
+			vec3 halfVector = normalize(gl_LightSource[0].halfVector.xyz);
+			float nxHalf = max(0.0,dot(norm, halfVector));
+			float specularPower = pow(nxHalf, gl_FrontMaterial.shininess);
+			specular = gl_LightSource[0].specular * specularPower * attenuation * gl_FrontMaterial.specular;
+		}
+
+		gl_FragColor = gl_LightSource[0].ambient +  diffuse;
+
+	}
+
+

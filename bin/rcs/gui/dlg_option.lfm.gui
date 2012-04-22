@@ -1,0 +1,8 @@
+numberAuxLinesY=0
+widget_id_1=optDesc
+widget_id_2=optClose
+showAuxliliaryLines=1
+LayoutFile=dlg_option.lfm
+widget_id_5=optName
+codegen=
+numberAuxLinesX=0

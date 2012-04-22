@@ -1,0 +1,78 @@
+[material]
+name = Mat0
+pwname = Steel
+[colormaterial]
+ambient= 255 , 255 , 255 , 255
+diffuse= 245 , 245 , 245 , 255 
+specular= 153 , 153 , 153 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat1
+pwname = 
+[colormaterial]
+ambient= 191 , 191 , 191 , 255
+diffuse= 191 , 191 , 191 , 255 
+specular= 191 , 191 , 191 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.3125
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Black
+[colormaterial]
+ambient= 0 , 0 , 0 , 255
+diffuse= 0 , 0 , 0 , 255
+specular= 0 , 0 , 0 , 255
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[geometry]
+filename=bottle-1.lfmg
+name=bottle-1
+[/geometry]
+
+[mesh]
+name=Mesh0
+type=EPT_TRIANGLE_LIST
+vertexbuffer=bottle-1/vMat0
+indexbuffer=bottle-1/iMat0
+firstindex=0
+numindexes=9696
+[/mesh]
+
+[mesh]
+name=Mesh1
+type=EPT_TRIANGLE_LIST
+vertexbuffer=bottle-1/vMat1
+indexbuffer=bottle-1/iMat1
+firstindex=0
+numindexes=792
+[/mesh]
+
+
+[mesh]
+name=mOutline
+type=EPT_LINE_LIST
+vertexbuffer=bottle-1/vOutline
+indexbuffer=bottle-1/iOutline
+firstindex=0
+numindexes=2152
+[/mesh]
+
+[model]
+name=bottle-1
+mesh=Mesh0
+mesh=Mesh1
+mesh=mOutline
+material=Mat0
+material=Mat1
+material=Black
+[/model]

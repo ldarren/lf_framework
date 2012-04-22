@@ -1,0 +1,20 @@
+	uniform sampler2D tex0;
+	uniform sampler2D tex1;
+	
+	uniform float scale;
+	uniform float bias;
+	
+	varying vec3 eyeVec;
+
+	void main()
+	{
+		float height = texture2D(tex1, gl_TexCoord[0].st).r;
+		float v = height * scale - bias;
+		vec3 eye = normalize(eyeVec);
+		vec2 newCoords = gl_TexCoord[0].st + (eye.xy * v);
+
+		gl_FragColor = texture2D(tex0, newCoords);
+
+	}
+
+

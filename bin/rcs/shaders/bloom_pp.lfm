@@ -1,0 +1,39 @@
+[postprocessor]
+  name=Bloom
+  priority=150
+  size=512,512
+  [step]
+    name=High contrast
+    feature=ERPF_PP_HIGH_CONTRAST
+    size=128,128
+    [input]
+      type=EPPSI_PREVIOUS
+    [/input]
+  [/step]
+  [step]
+    name=Blur horizontal
+    feature=ERPF_PP_BLUR_H
+    size=128,128
+    [input]
+      type=EPPSI_PREVIOUS
+    [/input]
+  [/step]
+  [step]
+    name=Blur vertical
+    feature=ERPF_PP_BLUR_V
+    size=128,128
+    [input]
+      type=EPPSI_PREVIOUS
+    [/input]
+  [/step]
+  [step]
+    name=Final
+    feature=ERPF_PP_BLOOM
+    [input]
+      type=EPPSI_SCENE
+    [/input]
+    [input]
+      type=EPPSI_PREVIOUS
+    [/input]
+  [/step]
+[/postprocessor]

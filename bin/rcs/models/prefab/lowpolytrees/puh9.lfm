@@ -1,0 +1,73 @@
+# PyLFM Version (0, 3, 9)
+# Lightfeather LFMG Version 3
+# AUTHOR: 
+# COPYRIGHT: 
+# DESIGNER: Blender v243
+# MODIFIED: October 10, 2007
+[geometry]
+filename=puh9.lfmg
+name=puh9
+[/geometry]
+[mesh]
+name=puh9
+type=EPT_TRIANGLE_LIST
+vertexbuffer=puh9/puh9_vb0
+indexbuffer=puh9/puh9_ib0
+firstindex=0
+numindexes=11370
+[/mesh]
+[mesh]
+name=puh9_matdiv1
+type=EPT_TRIANGLE_LIST
+vertexbuffer=puh9/puh9_vb0
+indexbuffer=puh9/puh9_ib1
+firstindex=0
+numindexes=504
+[/mesh]
+[material]
+name=bark
+feature=ERPF_DIFFUSEMAP
+[colormaterial]
+ambient=127,127,127,255
+diffuse=128,128,128,255
+emissive=0,0,0,255
+specular=70,69,68,255
+shininess=0
+[/colormaterial]
+[texture]
+type=2D
+filename=textures\06bark.tga
+name=06bark.tga
+[/texture]
+[renderstate]
+type=ERST_CULLING
+enabled=false
+[/renderstate]
+[/material]
+[material]
+name=branch
+feature=ERPF_TRANSPARENT
+[colormaterial]
+ambient=127,127,127,255
+diffuse=128,135,119,2
+emissive=0,0,0,255
+specular=55,73,59,255
+shininess=0
+[/colormaterial]
+[texture]
+type=2D
+filename=textures\10branch.tga
+name=10branch.tga
+[/texture]
+[renderstate]
+type=ERST_CULLING
+enabled=false
+[/renderstate]
+[/material]
+[model]
+name=puh9
+mesh=puh9
+mesh=puh9_matdiv1
+material=bark
+material=branch
+[/model]

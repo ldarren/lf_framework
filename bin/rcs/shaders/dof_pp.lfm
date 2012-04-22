@@ -1,0 +1,34 @@
+[postprocessor]
+  name=DepthOfField
+  priority=150
+  size=512,512
+  [step]
+    name=Blur horizontal
+    feature=ERPF_PP_BLUR_H
+    size=256,256
+    [input]
+      type=EPPSI_PREVIOUS
+    [/input]
+  [/step]
+  [step]
+    name=Blur vertical
+    feature=ERPF_PP_BLUR_V
+    size=256,256
+    [input]
+      type=EPPSI_PREVIOUS
+    [/input]
+  [/step]
+  [step]
+    name=Final
+    feature=ERPF_PP_DOF
+    [input]
+      type=EPPSI_SCENE
+    [/input]
+    [input]
+      type=EPPSI_PREVIOUS
+    [/input]
+    [input]
+      type=EPPSI_SCENE_DEPTH
+    [/input]
+  [/step]
+[/postprocessor]

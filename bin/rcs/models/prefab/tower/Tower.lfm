@@ -1,0 +1,788 @@
+[material]
+name=tower/2
+[colormaterial]
+diffuse=153,157,159, 50
+ambient=127,127,127,255
+specular=92,94,96, 255
+emissive=0,0,0,50
+shininess=0
+[/colormaterial]
+feature=ERPF_TRANSPARENT
+[renderstate]
+type=ERST_ALPHA_BLEND
+source=EABS_SRC_COLOR
+destination=EABD_ONE_MINUS_SRC_COLOR
+enabled=true
+[/renderstate]
+[/material]
+[material]
+name=tower/20_concretewall08.png
+[colormaterial]
+diffuse=130,123,127, 255
+ambient=0,0,0, 255
+specular=66,66,66, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=concretewall08.png
+name=concretewall08.png
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/3_win1.bmp
+[colormaterial]
+diffuse=98,0,0, 255
+ambient=0,0,0, 255
+specular=38,0,0, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=win1.bmp
+name=win1.bmp
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/41_wood01.png
+[colormaterial]
+diffuse=135,92,72, 255
+ambient=0,0,0, 255
+specular=52,35,28, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=wood01.png
+name=wood01.png
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/17_wall_w.bmp
+[colormaterial]
+diffuse=195,195,195, 255
+ambient=0,0,0, 255
+specular=76,76,76, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=wall_w.bmp
+name=wall_w.bmp
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/10_concretewall08.png
+[colormaterial]
+diffuse=157,157,146, 255
+ambient=0,0,0, 255
+specular=57,57,53, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=concretewall08.png
+name=concretewall08.png
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/14_finishes.plaster.stuc
+[colormaterial]
+diffuse=164,155,154, 255
+ambient=0,0,0, 255
+specular=79,79,80, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=finishes.plaster.stucco.medium.white.jpg
+name=finishes.plaster.stucco.medium.white.jpg
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/40_door01.png
+[colormaterial]
+diffuse=152,153,161, 255
+ambient=0,0,0, 255
+specular=68,69,74, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=door01.png
+name=door01.png
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/16_ceiling1.bmp
+[colormaterial]
+diffuse=187,187,187, 255
+ambient=0,0,0, 255
+specular=108,108,108, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=ceiling1.bmp
+name=ceiling1.bmp
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/12_1383-v7.jpg
+[colormaterial]
+diffuse=204,204,201, 255
+ambient=0,0,0, 255
+specular=96,96,96, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=1383-v7.jpg
+name=1383-v7.jpg
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/15_stonetiles_joseph.jpg
+[colormaterial]
+diffuse=164,172,162, 255
+ambient=0,0,0, 255
+specular=74,73,72, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=stonetiles_joseph.jpg
+name=stonetiles_joseph.jpg
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/38_metalwall01a.png
+[colormaterial]
+diffuse=127,136,139, 255
+ambient=0,0,0, 255
+specular=62,67,69, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=metalwall01a.png
+name=metalwall01a.png
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/5_win1.bmp
+[colormaterial]
+diffuse=49,0,0, 255
+ambient=0,0,0, 255
+specular=19,0,0, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=win1.bmp
+name=win1.bmp
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/4_wood01.png
+[colormaterial]
+diffuse=123,116,109, 255
+ambient=0,0,0, 255
+specular=60,53,53, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=wood01.png
+name=wood01.png
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/22
+[colormaterial]
+diffuse=160,143,136, 255
+ambient=0,0,0, 255
+specular=76,53,38, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=420-diffuse.jpg
+name=420-diffuse.jpg
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/22_420-diffuse.jpg
+[colormaterial]
+diffuse=160,143,136, 255
+ambient=0,0,0, 255
+specular=76,53,38, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=420-diffuse.jpg
+name=420-diffuse.jpg
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/22_door01.png
+[colormaterial]
+diffuse=160,143,136, 255
+ambient=0,0,0, 255
+specular=76,53,38, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=door01.png
+name=door01.png
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/22_wood01.png
+[colormaterial]
+diffuse=160,143,136, 255
+ambient=0,0,0, 255
+specular=76,53,38, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=wood01.png
+name=wood01.png
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/22_win1.bmp
+[colormaterial]
+diffuse=160,143,136, 255
+ambient=0,0,0, 255
+specular=76,53,38, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=win1.bmp
+name=win1.bmp
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/22_metalwall01a.png
+[colormaterial]
+diffuse=160,143,136, 255
+ambient=0,0,0, 255
+specular=76,53,38, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=metalwall01a.png
+name=metalwall01a.png
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/25_stonewall01.png
+[colormaterial]
+diffuse=204,204,204, 255
+ambient=0,0,0, 255
+specular=67,63,50, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=stonewall01.png
+name=stonewall01.png
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/30_concrete.bmp
+[colormaterial]
+diffuse=130,130,130, 255
+ambient=0,0,0, 255
+specular=51,51,51, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=concrete.bmp
+name=concrete.bmp
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/29_marble0194_l.jpg
+[colormaterial]
+diffuse=169,166,166, 255
+ambient=0,0,0, 255
+specular=60,56,53, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=marble0194_l.jpg
+name=marble0194_l.jpg
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/26_wall_w.bmp
+[colormaterial]
+diffuse=162,162,162, 255
+ambient=0,0,0, 255
+specular=63,63,63, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=wall_w.bmp
+name=wall_w.bmp
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/21_concretefloor01d.png
+[colormaterial]
+diffuse=185,182,175, 255
+ambient=0,0,0, 255
+specular=72,71,68, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=concretefloor01d.png
+name=concretefloor01d.png
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/1_win1.bmp
+[colormaterial]
+diffuse=136,113,113, 255
+ambient=0,0,0, 255
+specular=31,0,0, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=win1.bmp
+name=win1.bmp
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/34_concretewall06.png
+[colormaterial]
+diffuse=178,176,160, 255
+ambient=0,0,0, 255
+specular=69,68,62, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=concretewall06.png
+name=concretewall06.png
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/24_422.jpg
+[colormaterial]
+diffuse=90,99,109, 255
+ambient=0,0,0, 255
+specular=42,47,52, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=422.jpg
+name=422.jpg
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/24_metalwall01a.png
+[colormaterial]
+diffuse=90,99,109, 255
+ambient=0,0,0, 255
+specular=42,47,52, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=metalwall01a.png
+name=metalwall01a.png
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[material]
+name=tower/28_422.jpg
+[colormaterial]
+diffuse=84,80,76, 255
+ambient=0,0,0, 255
+specular=22,21,20, 255
+emissive=0,0,0, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=422.jpg
+name=422.jpg
+type=2D
+[/texture]
+feature=ERPF_DIFFUSEMAP
+[/material]
+[geometry]
+filename=Tower.lfmg
+name=tower
+[/geometry]
+[mesh]
+name=tower/mesh0
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx0
+indexbuffer=tower/idx0
+firstindex=0
+numindexes=2544
+[/mesh]
+[mesh]
+name=tower/mesh1
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx1
+indexbuffer=tower/idx1
+firstindex=0
+numindexes=255
+[/mesh]
+[mesh]
+name=tower/mesh2
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx2
+indexbuffer=tower/idx2
+firstindex=0
+numindexes=53025
+[/mesh]
+[mesh]
+name=tower/mesh3
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx3
+indexbuffer=tower/idx3
+firstindex=0
+numindexes=48
+[/mesh]
+[mesh]
+name=tower/mesh4
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx4
+indexbuffer=tower/idx4
+firstindex=0
+numindexes=966
+[/mesh]
+[mesh]
+name=tower/mesh5
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx5
+indexbuffer=tower/idx5
+firstindex=0
+numindexes=2682
+[/mesh]
+[mesh]
+name=tower/mesh6
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx6
+indexbuffer=tower/idx6
+firstindex=0
+numindexes=1008
+[/mesh]
+[mesh]
+name=tower/mesh7
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx7
+indexbuffer=tower/idx7
+firstindex=0
+numindexes=648
+[/mesh]
+[mesh]
+name=tower/mesh8
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx8
+indexbuffer=tower/idx8
+firstindex=0
+numindexes=1293
+[/mesh]
+[mesh]
+name=tower/mesh9
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx9
+indexbuffer=tower/idx9
+firstindex=0
+numindexes=840
+[/mesh]
+[mesh]
+name=tower/mesh10
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx10
+indexbuffer=tower/idx10
+firstindex=0
+numindexes=1197
+[/mesh]
+[mesh]
+name=tower/mesh11
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx11
+indexbuffer=tower/idx11
+firstindex=0
+numindexes=504
+[/mesh]
+[mesh]
+name=tower/mesh12
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx12
+indexbuffer=tower/idx12
+firstindex=0
+numindexes=25800
+[/mesh]
+[mesh]
+name=tower/mesh13
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx13
+indexbuffer=tower/idx13
+firstindex=0
+numindexes=11082
+[/mesh]
+[mesh]
+name=tower/mesh14
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx14
+indexbuffer=tower/idx14
+firstindex=0
+numindexes=30
+[/mesh]
+[mesh]
+name=tower/mesh15
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx15
+indexbuffer=tower/idx15
+firstindex=0
+numindexes=1224
+[/mesh]
+[mesh]
+name=tower/mesh16
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx16
+indexbuffer=tower/idx16
+firstindex=0
+numindexes=396
+[/mesh]
+[mesh]
+name=tower/mesh17
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx17
+indexbuffer=tower/idx17
+firstindex=0
+numindexes=12
+[/mesh]
+[mesh]
+name=tower/mesh18
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx18
+indexbuffer=tower/idx18
+firstindex=0
+numindexes=60
+[/mesh]
+[mesh]
+name=tower/mesh19
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx19
+indexbuffer=tower/idx19
+firstindex=0
+numindexes=252
+[/mesh]
+[mesh]
+name=tower/mesh20
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx20
+indexbuffer=tower/idx20
+firstindex=0
+numindexes=954
+[/mesh]
+[mesh]
+name=tower/mesh21
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx21
+indexbuffer=tower/idx21
+firstindex=0
+numindexes=4611
+[/mesh]
+[mesh]
+name=tower/mesh22
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx22
+indexbuffer=tower/idx22
+firstindex=0
+numindexes=60
+[/mesh]
+[mesh]
+name=tower/mesh23
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx23
+indexbuffer=tower/idx23
+firstindex=0
+numindexes=8028
+[/mesh]
+[mesh]
+name=tower/mesh24
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx24
+indexbuffer=tower/idx24
+firstindex=0
+numindexes=843
+[/mesh]
+[mesh]
+name=tower/mesh25
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx25
+indexbuffer=tower/idx25
+firstindex=0
+numindexes=75285
+[/mesh]
+[mesh]
+name=tower/mesh26
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx26
+indexbuffer=tower/idx26
+firstindex=0
+numindexes=1029
+[/mesh]
+[mesh]
+name=tower/mesh27
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx27
+indexbuffer=tower/idx27
+firstindex=0
+numindexes=204
+[/mesh]
+[mesh]
+name=tower/mesh28
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx28
+indexbuffer=tower/idx28
+firstindex=0
+numindexes=558
+[/mesh]
+[mesh]
+name=tower/mesh29
+type=EPT_TRIANGLE_LIST
+vertexbuffer=tower/vtx29
+indexbuffer=tower/idx29
+firstindex=0
+numindexes=7566
+[/mesh]
+[model]
+name=tower
+mesh=tower/mesh0
+mesh=tower/mesh1
+mesh=tower/mesh2
+mesh=tower/mesh3
+mesh=tower/mesh4
+mesh=tower/mesh5
+mesh=tower/mesh6
+mesh=tower/mesh7
+mesh=tower/mesh8
+mesh=tower/mesh9
+mesh=tower/mesh10
+mesh=tower/mesh11
+mesh=tower/mesh12
+mesh=tower/mesh13
+mesh=tower/mesh14
+mesh=tower/mesh15
+mesh=tower/mesh16
+mesh=tower/mesh17
+mesh=tower/mesh18
+mesh=tower/mesh19
+mesh=tower/mesh20
+mesh=tower/mesh21
+mesh=tower/mesh22
+mesh=tower/mesh23
+mesh=tower/mesh24
+mesh=tower/mesh25
+mesh=tower/mesh26
+mesh=tower/mesh27
+mesh=tower/mesh28
+mesh=tower/mesh29
+material=tower/2
+material=tower/20_concretewall08.png
+material=tower/3_win1.bmp
+material=tower/41_wood01.png
+material=tower/17_wall_w.bmp
+material=tower/10_concretewall08.png
+material=tower/14_finishes.plaster.stuc
+material=tower/40_door01.png
+material=tower/16_ceiling1.bmp
+material=tower/12_1383-v7.jpg
+material=tower/15_stonetiles_joseph.jpg
+material=tower/38_metalwall01a.png
+material=tower/5_win1.bmp
+material=tower/4_wood01.png
+material=tower/22
+material=tower/22_420-diffuse.jpg
+material=tower/22_door01.png
+material=tower/22_wood01.png
+material=tower/22_win1.bmp
+material=tower/22_metalwall01a.png
+material=tower/25_stonewall01.png
+material=tower/30_concrete.bmp
+material=tower/29_marble0194_l.jpg
+material=tower/26_wall_w.bmp
+material=tower/21_concretefloor01d.png
+material=tower/1_win1.bmp
+material=tower/34_concretewall06.png
+material=tower/24_422.jpg
+material=tower/24_metalwall01a.png
+material=tower/28_422.jpg
+[/model]

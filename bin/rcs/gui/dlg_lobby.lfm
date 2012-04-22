@@ -1,0 +1,126 @@
+[gui]
+  [widget]
+    type=EGWT_WINDOW
+    id=0
+    position=0.000000, 0.000000, 26, 26
+    size=0.000000, 0.000000, 255, 300
+    minsize=0.000000, 0.000000, 32, 50
+    maxsize=0.000000, 0.000000, 0, 0
+    visible=true
+    enabled=true
+    movable=true
+    resizable=true
+    alpha=255
+    text=Lobby
+    closebutton=true
+    rollbutton=true
+    rolledup=false
+    topborder=true
+    leftborder=true
+    bottomborder=true
+    rightborder=true
+    [widget]
+      type=EGWT_BUTTON
+      id=1
+      position=0.000000, 0.000000, 10, 10
+      size=0.000000, 0.000000, 64, 24
+      minsize=0.000000, 0.000000, 0, 0
+      maxsize=0.000000, 0.000000, 0, 0
+      visible=true
+      enabled=true
+      movable=false
+      resizable=false
+      alpha=255
+      text=Ready
+      commandId=200
+    [/widget]
+    [widget]
+      type=EGWT_LABEL
+      id=2
+      position=0.000000, 0.000000, 10, 42
+      size=0.000000, 0.000000, 64, 24
+      minsize=0.000000, 0.000000, 0, 0
+      maxsize=0.000000, 0.000000, 0, 0
+      visible=true
+      enabled=true
+      movable=false
+      resizable=false
+      alpha=255
+      text=Team
+      color=0,0,0, 255
+      [alignment]
+        horizontal=EGAH_LEFT
+        vertical=EGAV_CENTER
+      [/alignment]
+    [/widget]
+    [widget]
+      type=EGWT_COMBOBOX
+      id=3
+      position=0.000000, 0.000000, 10, 66
+      size=0.000000, 0.000000, 128, 24
+      minsize=0.000000, 0.000000, 0, 0
+      maxsize=0.000000, 0.000000, 0, 0
+      visible=true
+      enabled=true
+      movable=false
+      resizable=false
+      alpha=255
+      [item]
+        text=None
+      [/item]
+      [item]
+        text=Black & White
+      [/item]
+      [item]
+        text=Brightness
+      [/item]
+      [item]
+        text=Contrast
+      [/item]
+      [item]
+        text=Saturate
+      [/item]
+      [item]
+        text=Bloom
+      [/item]
+      [item]
+        text=Depth of Field
+      [/item]
+      [item]
+        text=Motion Blur
+      [/item]
+      selected=0
+      listlines=8
+    [/widget]
+    [widget]
+      type=EGWT_BUTTON
+      id=4
+      position=0.000000, 0.000000, 146, 66
+      size=0.000000, 0.000000, 64, 24
+      minsize=0.000000, 0.000000, 0, 0
+      maxsize=0.000000, 0.000000, 0, 0
+      visible=true
+      enabled=true
+      movable=false
+      resizable=false
+      alpha=255
+      text=Change
+      commandId=201
+    [/widget]
+    [widget]
+      type=EGWT_BUTTON
+      id=6
+      position=0.000000, 0.000000, 10, 102
+      size=0.000000, 0.000000, 64, 24
+      minsize=0.000000, 0.000000, 0, 0
+      maxsize=0.000000, 0.000000, 0, 0
+      visible=true
+      enabled=true
+      movable=false
+      resizable=false
+      alpha=255
+      text=Back
+      commandId=202
+    [/widget]
+  [/widget]
+[/gui]

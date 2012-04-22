@@ -1,0 +1,54 @@
+[material]
+name = Mat0
+pwname = Steel
+[colormaterial]
+ambient= 239 , 172 , 29 , 255
+diffuse= 229 , 165 , 28 , 255 
+specular= 143 , 103 , 17 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Black
+[colormaterial]
+ambient= 0 , 0 , 0 , 255
+diffuse= 0 , 0 , 0 , 255
+specular= 0 , 0 , 0 , 255
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[geometry]
+filename=4.lfmg
+name=4
+[/geometry]
+
+[mesh]
+name=Mesh0
+type=EPT_TRIANGLE_LIST
+vertexbuffer=4/vMat0
+indexbuffer=4/iMat0
+firstindex=0
+numindexes=10722
+[/mesh]
+
+
+[mesh]
+name=mOutline
+type=EPT_LINE_LIST
+vertexbuffer=4/vOutline
+indexbuffer=4/iOutline
+firstindex=0
+numindexes=3352
+[/mesh]
+
+[model]
+name=4
+mesh=Mesh0
+mesh=mOutline
+material=Mat0
+material=Black
+[/model]

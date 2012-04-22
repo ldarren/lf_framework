@@ -1,0 +1,438 @@
+[material]
+name = Mat0
+pwname = Steel
+[colormaterial]
+ambient= 255 , 255 , 255 , 255
+diffuse= 245 , 245 , 245 , 255 
+specular= 153 , 153 , 153 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat1
+pwname = Steel
+[colormaterial]
+ambient= 182 , 210 , 211 , 255
+diffuse= 173 , 200 , 200 , 120 
+specular= 107 , 124 , 124 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_VERTEX_BLEND
+[renderstate]
+type=ERST_ALPHA_BLEND
+Source = EABS_SRC_COLOR
+destination = EABD_ONE_MINUS_SRC_COLOR
+enabled = True
+[/renderstate]
+[/material]
+
+[material]
+name = Mat2
+pwname = Steel
+[colormaterial]
+ambient= 182 , 210 , 211 , 255
+diffuse= 173 , 200 , 200 , 112 
+specular= 107 , 124 , 124 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_VERTEX_BLEND
+[renderstate]
+type=ERST_ALPHA_BLEND
+Source = EABS_SRC_COLOR
+destination = EABD_ONE_MINUS_SRC_COLOR
+enabled = True
+[/renderstate]
+[/material]
+
+[material]
+name = Mat3
+pwname = Steel
+[colormaterial]
+ambient= 128 , 0 , 0 , 255
+diffuse= 122 , 0 , 0 , 255 
+specular= 76 , 0 , 0 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat4
+pwname = Steel
+[colormaterial]
+ambient= 128 , 0 , 0 , 255
+diffuse= 123 , 0 , 0 , 255 
+specular= 77 , 0 , 0 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat5
+pwname = Steel
+[colormaterial]
+ambient= 233 , 230 , 209 , 255
+diffuse= 224 , 221 , 201 , 255 
+specular= 140 , 138 , 125 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat6
+pwname = Steel
+[colormaterial]
+ambient= 182 , 210 , 211 , 255
+diffuse= 173 , 200 , 200 , 84 
+specular= 107 , 124 , 124 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_VERTEX_BLEND
+[renderstate]
+type=ERST_ALPHA_BLEND
+Source = EABS_SRC_COLOR
+destination = EABD_ONE_MINUS_SRC_COLOR
+enabled = True
+[/renderstate]
+[/material]
+
+[material]
+name = Mat7
+pwname = Steel
+[colormaterial]
+ambient= 157 , 157 , 157 , 255
+diffuse= 151 , 151 , 151 , 255 
+specular= 94 , 94 , 94 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat8
+pwname = Steel
+[colormaterial]
+ambient= 128 , 128 , 128 , 255
+diffuse= 123 , 123 , 123 , 255 
+specular= 77 , 77 , 77 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat9
+pwname = Steel
+[colormaterial]
+ambient= 255 , 255 , 255 , 255
+diffuse= 245 , 245 , 245 , 255 
+specular= 153 , 153 , 153 , 255
+emissive= 255 , 255 , 255 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat10
+pwname = Steel
+[colormaterial]
+ambient= 182 , 210 , 211 , 255
+diffuse= 173 , 200 , 200 , 61 
+specular= 107 , 124 , 124 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_VERTEX_BLEND
+[renderstate]
+type=ERST_ALPHA_BLEND
+Source = EABS_SRC_COLOR
+destination = EABD_ONE_MINUS_SRC_COLOR
+enabled = True
+[/renderstate]
+[/material]
+
+[material]
+name = Mat11
+pwname = Steel
+[colormaterial]
+ambient= 182 , 210 , 211 , 255
+diffuse= 173 , 200 , 200 , 92 
+specular= 107 , 124 , 124 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_VERTEX_BLEND
+[renderstate]
+type=ERST_ALPHA_BLEND
+Source = EABS_SRC_COLOR
+destination = EABD_ONE_MINUS_SRC_COLOR
+enabled = True
+[/renderstate]
+[/material]
+
+[material]
+name = Mat12
+pwname = Steel
+[colormaterial]
+ambient= 182 , 210 , 211 , 255
+diffuse= 173 , 200 , 200 , 87 
+specular= 107 , 124 , 124 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_VERTEX_BLEND
+[renderstate]
+type=ERST_ALPHA_BLEND
+Source = EABS_SRC_COLOR
+destination = EABD_ONE_MINUS_SRC_COLOR
+enabled = True
+[/renderstate]
+[/material]
+
+[material]
+name = Mat13
+pwname = Steel
+[colormaterial]
+ambient= 182 , 210 , 211 , 255
+diffuse= 173 , 200 , 200 , 82 
+specular= 107 , 124 , 124 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_VERTEX_BLEND
+[renderstate]
+type=ERST_ALPHA_BLEND
+Source = EABS_SRC_COLOR
+destination = EABD_ONE_MINUS_SRC_COLOR
+enabled = True
+[/renderstate]
+[/material]
+
+[material]
+name = Mat14
+pwname = Steel
+[colormaterial]
+ambient= 182 , 210 , 211 , 255
+diffuse= 173 , 200 , 200 , 102 
+specular= 107 , 124 , 124 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_VERTEX_BLEND
+[renderstate]
+type=ERST_ALPHA_BLEND
+Source = EABS_SRC_COLOR
+destination = EABD_ONE_MINUS_SRC_COLOR
+enabled = True
+[/renderstate]
+[/material]
+
+[material]
+name = Black
+[colormaterial]
+ambient= 0 , 0 , 0 , 255
+diffuse= 0 , 0 , 0 , 255
+specular= 0 , 0 , 0 , 255
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[geometry]
+filename=OGRE-TOWER-03.lfmg
+name=OGRE-TOWER-03
+[/geometry]
+
+[mesh]
+name=Mesh0
+type=EPT_TRIANGLE_LIST
+vertexbuffer=OGRE-TOWER-03/vMat0
+indexbuffer=OGRE-TOWER-03/iMat0
+firstindex=0
+numindexes=17985
+[/mesh]
+
+[mesh]
+name=Mesh1
+type=EPT_TRIANGLE_LIST
+vertexbuffer=OGRE-TOWER-03/vMat1
+indexbuffer=OGRE-TOWER-03/iMat1
+firstindex=0
+numindexes=144
+[/mesh]
+
+[mesh]
+name=Mesh2
+type=EPT_TRIANGLE_LIST
+vertexbuffer=OGRE-TOWER-03/vMat2
+indexbuffer=OGRE-TOWER-03/iMat2
+firstindex=0
+numindexes=534
+[/mesh]
+
+[mesh]
+name=Mesh3
+type=EPT_TRIANGLE_LIST
+vertexbuffer=OGRE-TOWER-03/vMat3
+indexbuffer=OGRE-TOWER-03/iMat3
+firstindex=0
+numindexes=300
+[/mesh]
+
+[mesh]
+name=Mesh4
+type=EPT_TRIANGLE_LIST
+vertexbuffer=OGRE-TOWER-03/vMat4
+indexbuffer=OGRE-TOWER-03/iMat4
+firstindex=0
+numindexes=113583
+[/mesh]
+
+[mesh]
+name=Mesh5
+type=EPT_TRIANGLE_LIST
+vertexbuffer=OGRE-TOWER-03/vMat5
+indexbuffer=OGRE-TOWER-03/iMat5
+firstindex=0
+numindexes=9810
+[/mesh]
+
+[mesh]
+name=Mesh6
+type=EPT_TRIANGLE_LIST
+vertexbuffer=OGRE-TOWER-03/vMat6
+indexbuffer=OGRE-TOWER-03/iMat6
+firstindex=0
+numindexes=2745
+[/mesh]
+
+[mesh]
+name=Mesh7
+type=EPT_TRIANGLE_LIST
+vertexbuffer=OGRE-TOWER-03/vMat7
+indexbuffer=OGRE-TOWER-03/iMat7
+firstindex=0
+numindexes=2409
+[/mesh]
+
+[mesh]
+name=Mesh8
+type=EPT_TRIANGLE_LIST
+vertexbuffer=OGRE-TOWER-03/vMat8
+indexbuffer=OGRE-TOWER-03/iMat8
+firstindex=0
+numindexes=990
+[/mesh]
+
+[mesh]
+name=Mesh9
+type=EPT_TRIANGLE_LIST
+vertexbuffer=OGRE-TOWER-03/vMat9
+indexbuffer=OGRE-TOWER-03/iMat9
+firstindex=0
+numindexes=276
+[/mesh]
+
+[mesh]
+name=Mesh10
+type=EPT_TRIANGLE_LIST
+vertexbuffer=OGRE-TOWER-03/vMat10
+indexbuffer=OGRE-TOWER-03/iMat10
+firstindex=0
+numindexes=1008
+[/mesh]
+
+[mesh]
+name=Mesh11
+type=EPT_TRIANGLE_LIST
+vertexbuffer=OGRE-TOWER-03/vMat11
+indexbuffer=OGRE-TOWER-03/iMat11
+firstindex=0
+numindexes=48
+[/mesh]
+
+[mesh]
+name=Mesh12
+type=EPT_TRIANGLE_LIST
+vertexbuffer=OGRE-TOWER-03/vMat12
+indexbuffer=OGRE-TOWER-03/iMat12
+firstindex=0
+numindexes=30
+[/mesh]
+
+[mesh]
+name=Mesh13
+type=EPT_TRIANGLE_LIST
+vertexbuffer=OGRE-TOWER-03/vMat13
+indexbuffer=OGRE-TOWER-03/iMat13
+firstindex=0
+numindexes=3414
+[/mesh]
+
+[mesh]
+name=Mesh14
+type=EPT_TRIANGLE_LIST
+vertexbuffer=OGRE-TOWER-03/vMat14
+indexbuffer=OGRE-TOWER-03/iMat14
+firstindex=0
+numindexes=4068
+[/mesh]
+
+
+[mesh]
+name=mOutline
+type=EPT_LINE_LIST
+vertexbuffer=OGRE-TOWER-03/vOutline
+indexbuffer=OGRE-TOWER-03/iOutline
+firstindex=0
+numindexes=53926
+[/mesh]
+
+[model]
+name=OGRE-TOWER-03
+mesh=Mesh0
+mesh=Mesh1
+mesh=Mesh2
+mesh=Mesh3
+mesh=Mesh4
+mesh=Mesh5
+mesh=Mesh6
+mesh=Mesh7
+mesh=Mesh8
+mesh=Mesh9
+mesh=Mesh10
+mesh=Mesh11
+mesh=Mesh12
+mesh=Mesh13
+mesh=Mesh14
+mesh=mOutline
+material=Mat0
+material=Mat1
+material=Mat2
+material=Mat3
+material=Mat4
+material=Mat5
+material=Mat6
+material=Mat7
+material=Mat8
+material=Mat9
+material=Mat10
+material=Mat11
+material=Mat12
+material=Mat13
+material=Mat14
+material=Black
+[/model]

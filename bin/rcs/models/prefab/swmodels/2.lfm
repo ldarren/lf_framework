@@ -1,0 +1,126 @@
+[material]
+name = Mat0
+pwname = 
+[colormaterial]
+ambient= 251 , 184 , 153 , 255
+diffuse= 251 , 184 , 153 , 255 
+specular= 251 , 184 , 153 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.3125
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat1
+pwname = 
+[colormaterial]
+ambient= 0 , 0 , 255 , 255
+diffuse= 0 , 0 , 255 , 255 
+specular= 0 , 0 , 255 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.3125
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat2
+pwname = Steel
+[colormaterial]
+ambient= 0 , 0 , 0 , 255
+diffuse= 0 , 0 , 0 , 255 
+specular= 0 , 0 , 0 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat3
+pwname = 
+[colormaterial]
+ambient= 255 , 0 , 0 , 255
+diffuse= 255 , 0 , 0 , 255 
+specular= 255 , 0 , 0 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.3125
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Black
+[colormaterial]
+ambient= 0 , 0 , 0 , 255
+diffuse= 0 , 0 , 0 , 255
+specular= 0 , 0 , 0 , 255
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[geometry]
+filename=2.lfmg
+name=2
+[/geometry]
+
+[mesh]
+name=Mesh0
+type=EPT_TRIANGLE_LIST
+vertexbuffer=2/vMat0
+indexbuffer=2/iMat0
+firstindex=0
+numindexes=2655
+[/mesh]
+
+[mesh]
+name=Mesh1
+type=EPT_TRIANGLE_LIST
+vertexbuffer=2/vMat1
+indexbuffer=2/iMat1
+firstindex=0
+numindexes=6237
+[/mesh]
+
+[mesh]
+name=Mesh2
+type=EPT_TRIANGLE_LIST
+vertexbuffer=2/vMat2
+indexbuffer=2/iMat2
+firstindex=0
+numindexes=2016
+[/mesh]
+
+[mesh]
+name=Mesh3
+type=EPT_TRIANGLE_LIST
+vertexbuffer=2/vMat3
+indexbuffer=2/iMat3
+firstindex=0
+numindexes=282
+[/mesh]
+
+
+[mesh]
+name=mOutline
+type=EPT_LINE_LIST
+vertexbuffer=2/vOutline
+indexbuffer=2/iOutline
+firstindex=0
+numindexes=2506
+[/mesh]
+
+[model]
+name=2
+mesh=Mesh0
+mesh=Mesh1
+mesh=Mesh2
+mesh=Mesh3
+mesh=mOutline
+material=Mat0
+material=Mat1
+material=Mat2
+material=Mat3
+material=Black
+[/model]

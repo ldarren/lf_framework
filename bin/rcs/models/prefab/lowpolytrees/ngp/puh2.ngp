@@ -1,0 +1,197 @@
+P3D 0 3
+BaseSeed 159
+BranchingAlg __None__
+StemModel __None__
+Material __None__
+VisRangeEnabled false
+VisRange 0.000000 1.000000
+BranchModelCount 1
+BranchingAlg Base
+RotAngle 0.000000
+StemModel Tube
+Length 9.000000
+LengthV 0.400000
+LengthOffsetDep CubicSpline
+CPCount 2
+Point 0.000000 1.000000
+Point 1.000000 1.000000
+AxisVariation 0.020000
+AxisResolution 8
+ProfileScaleBase 0.150000
+ProfileScaleCurve CubicSpline
+CPCount 2
+Point 0.000000 1.000000
+Point 1.000000 0.107143
+ProfileResolution 8
+PhototropismCurve CubicSpline
+CPCount 3
+Point 0.000000 0.500000
+Point 0.445313 0.500000
+Point 1.000000 0.428571
+BaseTexUMode 0
+BaseTexUScale 1.000000
+BaseTexVMode 0
+BaseTexVScale 5.000000
+Material Simple
+BaseColor 0.501961 0.501961 0.501961
+BaseTexture 01bark.tga
+DoubleSided false
+Transparent false
+BillboardMode __None__
+AlphaCtrlEnabled false
+AlphaFadeIn 0.000000
+AlphaFadeOut 0.000000
+VisRangeEnabled false
+VisRange 0.000000 1.000000
+BranchModelCount 2
+BranchingAlg Std
+Density 3.000000
+DensityV 0.000000
+Multiplicity 1
+RevAngle 1.151917
+RevAngleV 0.000000
+RotAngle 1.064651
+MinOffset 0.300000
+MaxOffset 1.000000
+DeclinationCurve CubicSpline
+CPCount 4
+Point 0.000000 1.000000
+Point 0.257813 0.428571
+Point 0.585938 0.428571
+Point 1.000000 0.500000
+DeclinationV 0.300000
+StemModel Tube
+Length 0.200000
+LengthV 0.000000
+LengthOffsetDep CubicSpline
+CPCount 4
+Point 0.000000 0.285714
+Point 0.335938 0.821429
+Point 0.656250 0.821429
+Point 1.000000 0.250000
+AxisVariation 0.000000
+AxisResolution 5
+ProfileScaleBase 0.500000
+ProfileScaleCurve CubicSpline
+CPCount 3
+Point 0.000000 0.607143
+Point 0.882813 0.142857
+Point 1.000000 0.000000
+ProfileResolution 3
+PhototropismCurve CubicSpline
+CPCount 3
+Point 0.000000 0.500000
+Point 0.523438 0.535714
+Point 1.000000 0.500000
+BaseTexUMode 0
+BaseTexUScale 1.000000
+BaseTexVMode 0
+BaseTexVScale 5.000000
+Material Simple
+BaseColor 0.603922 0.603922 0.603922
+BaseTexture 01bark.tga
+DoubleSided true
+Transparent true
+BillboardMode __None__
+AlphaCtrlEnabled false
+AlphaFadeIn 0.000000
+AlphaFadeOut 0.000000
+VisRangeEnabled false
+VisRange 0.000000 1.000000
+BranchModelCount 1
+BranchingAlg Std
+Density 2.000000
+DensityV 0.200000
+Multiplicity 1
+RevAngle 2.617994
+RevAngleV 0.200000
+RotAngle 0.034907
+MinOffset 0.200000
+MaxOffset 1.000000
+DeclinationCurve CubicSpline
+CPCount 2
+Point 0.000000 0.500000
+Point 1.000000 0.500000
+DeclinationV 0.300000
+StemModel Tube
+Length 0.500000
+LengthV 0.000000
+LengthOffsetDep CubicSpline
+CPCount 3
+Point 0.000000 0.464286
+Point 0.515625 0.785714
+Point 1.000000 0.321429
+AxisVariation 0.000000
+AxisResolution 5
+ProfileScaleBase 1.000000
+ProfileScaleCurve CubicSpline
+CPCount 2
+Point 0.000000 1.000000
+Point 1.000000 0.000000
+ProfileResolution 3
+PhototropismCurve CubicSpline
+CPCount 3
+Point 0.000000 0.500000
+Point 0.414063 0.678571
+Point 1.000000 0.500000
+BaseTexUMode 0
+BaseTexUScale 1.000000
+BaseTexVMode 0
+BaseTexVScale 3.299999
+Material Simple
+BaseColor 0.501961 0.501961 0.501961
+BaseTexture 01bark.tga
+DoubleSided false
+Transparent false
+BillboardMode __None__
+AlphaCtrlEnabled false
+AlphaFadeIn 0.000000
+AlphaFadeOut 0.000000
+VisRangeEnabled false
+VisRange 0.000000 1.000000
+BranchModelCount 0
+BranchingAlg Std
+Density 3.000000
+DensityV 0.000000
+Multiplicity 1
+RevAngle 1.151917
+RevAngleV 0.100000
+RotAngle 0.506145
+MinOffset 0.300000
+MaxOffset 1.000000
+DeclinationCurve CubicSpline
+CPCount 3
+Point 0.000000 0.500000
+Point 0.500000 0.321429
+Point 1.000000 0.500000
+DeclinationV 0.200000
+StemModel Quad
+Length 4.500000
+Width 4.500000
+Scaling CubicSpline
+CPCount 5
+Point 0.000000 0.178571
+Point 0.234375 0.357143
+Point 0.492188 0.857143
+Point 0.796875 0.607143
+Point 1.000000 0.428571
+SectionCount 3
+Curvature CubicSpline
+CPCount 4
+Point 0.000000 0.500000
+Point 0.515625 0.678571
+Point 0.804688 0.464286
+Point 1.000000 0.000000
+Thickness 1.000000
+Material Simple
+BaseColor 0.501961 0.501961 0.501961
+BaseTexture 06branch.tga
+DoubleSided true
+Transparent true
+BillboardMode __None__
+AlphaCtrlEnabled false
+AlphaFadeIn 0.000000
+AlphaFadeOut 0.000000
+VisRangeEnabled false
+VisRange 0.000000 1.000000
+BranchModelCount 0

@@ -1,0 +1,54 @@
+[material]
+name = Mat0
+pwname = Steel
+[colormaterial]
+ambient= 128 , 128 , 0 , 255
+diffuse= 123 , 123 , 0 , 255 
+specular= 77 , 77 , 0 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Black
+[colormaterial]
+ambient= 0 , 0 , 0 , 255
+diffuse= 0 , 0 , 0 , 255
+specular= 0 , 0 , 0 , 255
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[geometry]
+filename=SGI-Logo1.lfmg
+name=SGI-Logo1
+[/geometry]
+
+[mesh]
+name=Mesh0
+type=EPT_TRIANGLE_LIST
+vertexbuffer=SGI-Logo1/vMat0
+indexbuffer=SGI-Logo1/iMat0
+firstindex=0
+numindexes=13176
+[/mesh]
+
+
+[mesh]
+name=mOutline
+type=EPT_LINE_LIST
+vertexbuffer=SGI-Logo1/vOutline
+indexbuffer=SGI-Logo1/iOutline
+firstindex=0
+numindexes=1728
+[/mesh]
+
+[model]
+name=SGI-Logo1
+mesh=Mesh0
+mesh=mOutline
+material=Mat0
+material=Black
+[/model]

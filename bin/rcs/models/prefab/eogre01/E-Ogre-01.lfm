@@ -1,0 +1,222 @@
+[material]
+name = Mat0
+pwname = Steel
+[colormaterial]
+ambient= 167 , 174 , 164 , 255
+diffuse= 160 , 167 , 157 , 255 
+specular= 100 , 104 , 98 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat1
+pwname = Steel
+[colormaterial]
+ambient= 101 , 111 , 114 , 255
+diffuse= 97 , 107 , 109 , 255 
+specular= 61 , 67 , 68 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat2
+pwname = Steel
+[colormaterial]
+ambient= 128 , 128 , 128 , 255
+diffuse= 123 , 123 , 123 , 255 
+specular= 77 , 77 , 77 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat3
+pwname = Steel
+[colormaterial]
+ambient= 179 , 180 , 189 , 255
+diffuse= 172 , 173 , 181 , 255 
+specular= 107 , 108 , 113 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat4
+pwname = Steel
+[colormaterial]
+ambient= 180 , 180 , 180 , 255
+diffuse= 173 , 173 , 173 , 255 
+specular= 108 , 108 , 108 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat5
+pwname = Steel
+[colormaterial]
+ambient= 255 , 255 , 255 , 255
+diffuse= 245 , 245 , 245 , 255 
+specular= 153 , 153 , 153 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat6
+pwname = Steel
+[colormaterial]
+ambient= 253 , 249 , 227 , 255
+diffuse= 243 , 239 , 218 , 255 
+specular= 152 , 149 , 136 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat7
+pwname = Steel
+[colormaterial]
+ambient= 139 , 141 , 154 , 255
+diffuse= 133 , 135 , 148 , 255 
+specular= 83 , 85 , 92 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Black
+[colormaterial]
+ambient= 0 , 0 , 0 , 255
+diffuse= 0 , 0 , 0 , 255
+specular= 0 , 0 , 0 , 255
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[geometry]
+filename=E-Ogre-01.lfmg
+name=E-Ogre-01
+[/geometry]
+
+[mesh]
+name=Mesh0
+type=EPT_TRIANGLE_LIST
+vertexbuffer=E-Ogre-01/vMat0
+indexbuffer=E-Ogre-01/iMat0
+firstindex=0
+numindexes=53418
+[/mesh]
+
+[mesh]
+name=Mesh1
+type=EPT_TRIANGLE_LIST
+vertexbuffer=E-Ogre-01/vMat1
+indexbuffer=E-Ogre-01/iMat1
+firstindex=0
+numindexes=8484
+[/mesh]
+
+[mesh]
+name=Mesh2
+type=EPT_TRIANGLE_LIST
+vertexbuffer=E-Ogre-01/vMat2
+indexbuffer=E-Ogre-01/iMat2
+firstindex=0
+numindexes=23016
+[/mesh]
+
+[mesh]
+name=Mesh3
+type=EPT_TRIANGLE_LIST
+vertexbuffer=E-Ogre-01/vMat3
+indexbuffer=E-Ogre-01/iMat3
+firstindex=0
+numindexes=48120
+[/mesh]
+
+[mesh]
+name=Mesh4
+type=EPT_TRIANGLE_LIST
+vertexbuffer=E-Ogre-01/vMat4
+indexbuffer=E-Ogre-01/iMat4
+firstindex=0
+numindexes=49875
+[/mesh]
+
+[mesh]
+name=Mesh5
+type=EPT_TRIANGLE_LIST
+vertexbuffer=E-Ogre-01/vMat5
+indexbuffer=E-Ogre-01/iMat5
+firstindex=0
+numindexes=4239
+[/mesh]
+
+[mesh]
+name=Mesh6
+type=EPT_TRIANGLE_LIST
+vertexbuffer=E-Ogre-01/vMat6
+indexbuffer=E-Ogre-01/iMat6
+firstindex=0
+numindexes=1764
+[/mesh]
+
+[mesh]
+name=Mesh7
+type=EPT_TRIANGLE_LIST
+vertexbuffer=E-Ogre-01/vMat7
+indexbuffer=E-Ogre-01/iMat7
+firstindex=0
+numindexes=762
+[/mesh]
+
+
+[mesh]
+name=mOutline
+type=EPT_LINE_LIST
+vertexbuffer=E-Ogre-01/vOutline
+indexbuffer=E-Ogre-01/iOutline
+firstindex=0
+numindexes=88980
+[/mesh]
+
+[model]
+name=E-Ogre-01
+mesh=Mesh0
+mesh=Mesh1
+mesh=Mesh2
+mesh=Mesh3
+mesh=Mesh4
+mesh=Mesh5
+mesh=Mesh6
+mesh=Mesh7
+mesh=mOutline
+material=Mat0
+material=Mat1
+material=Mat2
+material=Mat3
+material=Mat4
+material=Mat5
+material=Mat6
+material=Mat7
+material=Black
+[/model]

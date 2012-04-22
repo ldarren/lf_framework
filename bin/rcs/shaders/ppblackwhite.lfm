@@ -1,0 +1,43 @@
+[renderfeature]
+name=ERPF_PP_BW
+[ERPL_POSTPROCESS]
+	pass=ERP_MAIN
+[/ERPL_POSTPROCESS]
+[/renderfeature]
+
+[renderpass]
+    feature = ERPF_PP_BW
+    lang = glsl
+    quality = 100
+    pipeline = ERPL_POSTPROCESS
+    pass = ERP_MAIN
+    stage = ERPS_MAIN
+    numtextures = 1
+
+	[vertexshader]
+		code = \
+                void main()\
+                {\
+                    gl_TexCoord[0] = gl_MultiTexCoord0;\
+                    gl_Position = ftransform();\
+                }
+	[/vertexshader]
+
+	[pixelshader]
+		code = \
+                uniform sampler2D tex0;\
+                void main()\
+                {\
+                    // easy access to color components\
+                    float red = texture2D(tex0, gl_TexCoord[0].st).r;\
+                    float grn = texture2D(tex0, gl_TexCoord[0].st).g;\
+                    float blu = texture2D(tex0, gl_TexCoord[0].st).b;\
+                \
+                    // luminocity formula\
+                    float col = red * 0.299 + grn * 0.587 + blu * 0.114;\
+                \
+                    // finished\
+                    gl_FragColor = vec4(col, col, col, 1);\
+                }
+	[/pixelshader]
+[/renderpass]

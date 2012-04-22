@@ -1,0 +1,91 @@
+[gui]
+  [widget]
+    type=EGWT_WINDOW
+    id=0
+    position=0.000000, 0.000000, 230, 86
+    size=0.000000, 0.000000, 300, 400
+    minsize=0.000000, 0.000000, 0, 0
+    maxsize=0.000000, 0.000000, 0, 0
+    visible=true
+    enabled=true
+    movable=true
+    resizable=true
+    alpha=255
+    text=Option
+    closebutton=true
+    rollbutton=true
+    rolledup=false
+    topborder=true
+    leftborder=true
+    bottomborder=true
+    rightborder=true
+    [widget]
+      type=EGWT_TEXT_AREA
+      id=1
+      position=0.000000, 0.000000, 6, 215
+      size=0.000000, 0.000000, 283, 128
+      minsize=0.000000, 0.000000, 0, 0
+      maxsize=0.000000, 0.000000, 0, 0
+      visible=true
+      enabled=true
+      movable=false
+      resizable=false
+      alpha=255
+      text=Darren the shen of miko land, to survive his dearest land \
+under the attack of idiotic chinese and korean, he decided to \
+re-name his home town instead to confuse the dump enemies \
+the new name will the rh
+    [/widget]
+    [widget]
+      type=EGWT_BUTTON
+      id=2
+      position=0.000000, 0.000000, 125, 347
+      size=0.000000, 0.000000, 64, 24
+      minsize=0.000000, 0.000000, 0, 0
+      maxsize=0.000000, 0.000000, 0, 0
+      visible=true
+      enabled=true
+      movable=false
+      resizable=false
+      alpha=255
+      text=Button
+      commandId=101
+    [/widget]
+    [widget]
+      type=EGWT_LABEL
+      id=4
+      position=0.000000, 0.000000, 5, 13
+      size=0.000000, 0.000000, 64, 24
+      minsize=0.000000, 0.000000, 0, 0
+      maxsize=0.000000, 0.000000, 0, 0
+      visible=true
+      enabled=true
+      movable=false
+      resizable=false
+      alpha=255
+      text=Name
+      color=0,0,0, 255
+      [alignment]
+        horizontal=EGAH_LEFT
+        vertical=EGAV_CENTER
+      [/alignment]
+    [/widget]
+    [widget]
+      type=EGWT_EDIT_BOX
+      id=5
+      position=0.000000, 0.000000, 65, 15
+      size=0.000000, 0.000000, 128, 24
+      minsize=0.000000, 0.000000, 0, 0
+      maxsize=0.000000, 0.000000, 0, 0
+      visible=true
+      enabled=true
+      movable=false
+      resizable=false
+      alpha=255
+      text=name
+      readonly=false
+      passwordmode=false
+      returnmode=true
+    [/widget]
+  [/widget]
+[/gui]

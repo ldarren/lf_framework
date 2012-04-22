@@ -1,0 +1,390 @@
+[material]
+name = Mat0
+pwname = Glass
+[colormaterial]
+ambient= 143 , 153 , 156 , 255
+diffuse= 137 , 147 , 150 , 255 
+specular= 86 , 92 , 94 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat1
+pwname = Steel
+[colormaterial]
+ambient= 255 , 255 , 255 , 255
+diffuse= 245 , 245 , 245 , 255 
+specular= 153 , 153 , 153 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat2
+pwname = Steel
+[colormaterial]
+ambient= 128 , 128 , 128 , 255
+diffuse= 123 , 123 , 123 , 255 
+specular= 77 , 77 , 77 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat3
+pwname = Steel
+[colormaterial]
+ambient= 226 , 210 , 167 , 255
+diffuse= 217 , 202 , 160 , 255 
+specular= 136 , 126 , 100 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat4
+pwname = Steel
+[colormaterial]
+ambient= 180 , 126 , 101 , 255
+diffuse= 173 , 121 , 97 , 255 
+specular= 108 , 76 , 61 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat5
+pwname = Steel
+[colormaterial]
+ambient= 100 , 66 , 49 , 255
+diffuse= 96 , 63 , 47 , 255 
+specular= 60 , 40 , 29 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat6
+pwname = Steel
+[colormaterial]
+ambient= 250 , 240 , 191 , 255
+diffuse= 240 , 230 , 183 , 255 
+specular= 150 , 144 , 115 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat7
+pwname = Steel
+[colormaterial]
+ambient= 143 , 153 , 156 , 255
+diffuse= 137 , 147 , 150 , 255 
+specular= 86 , 92 , 94 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat8
+pwname = Steel
+[colormaterial]
+ambient= 197 , 177 , 139 , 255
+diffuse= 189 , 170 , 133 , 255 
+specular= 118 , 106 , 83 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat9
+pwname = Steel
+[colormaterial]
+ambient= 149 , 125 , 96 , 255
+diffuse= 143 , 120 , 92 , 255 
+specular= 89 , 75 , 58 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat10
+pwname = Steel
+[colormaterial]
+ambient= 192 , 192 , 192 , 255
+diffuse= 184 , 184 , 184 , 255 
+specular= 115 , 115 , 115 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat11
+pwname = brick01
+[colormaterial]
+ambient= 192 , 192 , 192 , 255
+diffuse= 192 , 192 , 192 , 255 
+specular= 192 , 192 , 192 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.3125
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat12
+pwname = Polished_Plastic
+[colormaterial]
+ambient= 255 , 255 , 255 , 255
+diffuse= 245 , 245 , 245 , 255 
+specular= 153 , 153 , 153 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat13
+pwname = Polished_Plastic
+[colormaterial]
+ambient= 192 , 192 , 192 , 255
+diffuse= 184 , 184 , 184 , 255 
+specular= 115 , 115 , 115 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat14
+pwname = Polished_Plastic
+[colormaterial]
+ambient= 128 , 128 , 128 , 255
+diffuse= 123 , 123 , 123 , 255 
+specular= 77 , 77 , 77 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Black
+[colormaterial]
+ambient= 0 , 0 , 0 , 255
+diffuse= 0 , 0 , 0 , 255
+specular= 0 , 0 , 0 , 255
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[geometry]
+filename=Kreschalnja.lfmg
+name=Kreschalnja
+[/geometry]
+
+[mesh]
+name=Mesh0
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kreschalnja/vMat0
+indexbuffer=Kreschalnja/iMat0
+firstindex=0
+numindexes=6336
+[/mesh]
+
+[mesh]
+name=Mesh1
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kreschalnja/vMat1
+indexbuffer=Kreschalnja/iMat1
+firstindex=0
+numindexes=21198
+[/mesh]
+
+[mesh]
+name=Mesh2
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kreschalnja/vMat2
+indexbuffer=Kreschalnja/iMat2
+firstindex=0
+numindexes=126
+[/mesh]
+
+[mesh]
+name=Mesh3
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kreschalnja/vMat3
+indexbuffer=Kreschalnja/iMat3
+firstindex=0
+numindexes=270
+[/mesh]
+
+[mesh]
+name=Mesh4
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kreschalnja/vMat4
+indexbuffer=Kreschalnja/iMat4
+firstindex=0
+numindexes=5610
+[/mesh]
+
+[mesh]
+name=Mesh5
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kreschalnja/vMat5
+indexbuffer=Kreschalnja/iMat5
+firstindex=0
+numindexes=96
+[/mesh]
+
+[mesh]
+name=Mesh6
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kreschalnja/vMat6
+indexbuffer=Kreschalnja/iMat6
+firstindex=0
+numindexes=10974
+[/mesh]
+
+[mesh]
+name=Mesh7
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kreschalnja/vMat7
+indexbuffer=Kreschalnja/iMat7
+firstindex=0
+numindexes=204
+[/mesh]
+
+[mesh]
+name=Mesh8
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kreschalnja/vMat8
+indexbuffer=Kreschalnja/iMat8
+firstindex=0
+numindexes=384
+[/mesh]
+
+[mesh]
+name=Mesh9
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kreschalnja/vMat9
+indexbuffer=Kreschalnja/iMat9
+firstindex=0
+numindexes=978
+[/mesh]
+
+[mesh]
+name=Mesh10
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kreschalnja/vMat10
+indexbuffer=Kreschalnja/iMat10
+firstindex=0
+numindexes=108
+[/mesh]
+
+[mesh]
+name=Mesh11
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kreschalnja/vMat11
+indexbuffer=Kreschalnja/iMat11
+firstindex=0
+numindexes=540
+[/mesh]
+
+[mesh]
+name=Mesh12
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kreschalnja/vMat12
+indexbuffer=Kreschalnja/iMat12
+firstindex=0
+numindexes=2766
+[/mesh]
+
+[mesh]
+name=Mesh13
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kreschalnja/vMat13
+indexbuffer=Kreschalnja/iMat13
+firstindex=0
+numindexes=36
+[/mesh]
+
+[mesh]
+name=Mesh14
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kreschalnja/vMat14
+indexbuffer=Kreschalnja/iMat14
+firstindex=0
+numindexes=216
+[/mesh]
+
+
+[mesh]
+name=mOutline
+type=EPT_LINE_LIST
+vertexbuffer=Kreschalnja/vOutline
+indexbuffer=Kreschalnja/iOutline
+firstindex=0
+numindexes=14696
+[/mesh]
+
+[model]
+name=Kreschalnja
+mesh=Mesh0
+mesh=Mesh1
+mesh=Mesh2
+mesh=Mesh3
+mesh=Mesh4
+mesh=Mesh5
+mesh=Mesh6
+mesh=Mesh7
+mesh=Mesh8
+mesh=Mesh9
+mesh=Mesh10
+mesh=Mesh11
+mesh=Mesh12
+mesh=Mesh13
+mesh=Mesh14
+mesh=mOutline
+material=Mat0
+material=Mat1
+material=Mat2
+material=Mat3
+material=Mat4
+material=Mat5
+material=Mat6
+material=Mat7
+material=Mat8
+material=Mat9
+material=Mat10
+material=Mat11
+material=Mat12
+material=Mat13
+material=Mat14
+material=Black
+[/model]

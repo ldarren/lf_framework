@@ -1,0 +1,35 @@
+[postprocessor]
+  name=MotionBlur
+  priority=150
+  size=512,512
+  [texture]
+  	name=PrevTex
+  [/texture]
+  [step]
+    name=Accumulator
+    feature=ERPF_PP_MOTIONBLUR
+    [input]
+      type=EPPSI_SCENE
+    [/input]
+    [input]
+      type=EPPSI_TEXTURE
+      texture=MotionBlur/PrevTex
+    [/input]
+  [/step]
+  [step]
+    name=Copy
+    feature=ERPF_DIFFUSEMAP
+    output=MotionBlur/PrevTex
+    [input]
+      type=EPPSI_PREVIOUS
+    [/input]
+  [/step]
+  [step]
+    name=Final
+    feature=ERPF_DIFFUSEMAP
+    [input]
+      type=EPPSI_TEXTURE
+      texture=MotionBlur/Accumulator
+    [/input]
+  [/step]
+[/postprocessor]

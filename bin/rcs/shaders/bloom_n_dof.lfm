@@ -1,0 +1,294 @@
+#
+# high-contrast
+#
+[renderfeature]
+name=ERPF_PP_HIGH_CONTRAST
+[ERPL_POSTPROCESS]
+	pass=ERP_MAIN
+[/ERPL_POSTPROCESS]
+[/renderfeature]
+
+[renderpass]
+    feature = ERPF_PP_HIGH_CONTRAST
+    lang = glsl
+    quality = 100
+    pipeline=ERPL_POSTPROCESS
+    pass=ERP_MAIN
+    stage = ERPS_MAIN
+    numtextures = 1
+
+	[vertexshader]
+
+		code = \
+                void main()\
+                {\
+                    gl_TexCoord[0] = gl_MultiTexCoord0;\
+                    gl_Position = ftransform();\
+                }
+	[/vertexshader]
+
+	[pixelshader]
+		code = \
+        uniform sampler2D tex0;\
+        \
+        void main(void)\
+        {\
+            vec4 colorc = texture2D(tex0, gl_TexCoord[0].st);\
+        \
+            // high contrast\
+            gl_FragColor = colorc * colorc * colorc;\
+        }
+	[/pixelshader]
+[/renderpass]
+
+#
+# blur_h
+#
+[renderfeature]
+name=ERPF_PP_BLUR_H
+[ERPL_POSTPROCESS]
+	pass=ERP_MAIN
+[/ERPL_POSTPROCESS]
+[/renderfeature]
+
+[renderpass]
+    feature = ERPF_PP_BLUR_H
+    lang = glsl
+    quality = 100
+    pipeline=ERPL_POSTPROCESS
+    pass=ERP_MAIN
+    stage = ERPS_MAIN
+    numtextures = 1
+
+	[vertexshader]
+		code = \
+                void main()\
+                {\
+                    gl_TexCoord[0] = gl_MultiTexCoord0;\
+                    gl_Position = ftransform();\
+                }
+	[/vertexshader]
+
+	[pixelshader]
+		code = \
+                uniform sampler2D tex0;\
+                uniform vec2 texel0;\
+                \
+                float texScaler = texel0.x;\
+                float texOffset = -0.5 * texScaler;\
+                \
+                vec4 filter[7];\
+                \
+                void main(void)\
+                {\
+                    vec4 colorc = vec4(0.0,0.0,0.0,0.0);\
+                \
+                    filter[0] = vec4(-3.0, 0.0, 0.0,  1.0/64.0);\
+                    filter[1] = vec4(-2.0, 0.0, 0.0,  6.0/64.0);\
+                    filter[2] = vec4(-1.0, 0.0, 0.0, 15.0/64.0);\
+                    filter[3] = vec4( 0.0, 0.0, 0.0, 20.0/64.0);\
+                    filter[4] = vec4( 1.0, 0.0, 0.0, 15.0/64.0);\
+                    filter[5] = vec4( 2.0, 0.0, 0.0,  6.0/64.0);\
+                    filter[6] = vec4( 3.0, 0.0, 0.0,  1.0/64.0);\
+                \
+                    int i;\
+                    for (i = 0; i < 7; i++)\
+                    {\
+                        colorc += texture2D(tex0,\
+                                            vec2(\
+                                                gl_TexCoord[0].x + filter[i].x * texScaler + texOffset,\
+                                                gl_TexCoord[0].y + filter[i].y * texScaler + texOffset)\
+                                                ) * 1.0;\
+                //                            filter[i].w;\
+                    }\
+                    colorc /= 7.0;\
+                    gl_FragColor = colorc;\
+                }
+	[/pixelshader]
+
+[/renderpass]
+
+#
+# blur_v
+#
+[renderfeature]
+name=ERPF_PP_BLUR_V
+[ERPL_POSTPROCESS]
+	pass=ERP_MAIN
+[/ERPL_POSTPROCESS]
+[/renderfeature]
+
+[renderpass]
+    feature = ERPF_PP_BLUR_V
+    lang = glsl
+    quality = 100
+    pipeline=ERPL_POSTPROCESS
+    pass=ERP_MAIN
+    stage = ERPS_MAIN
+    numtextures = 1
+
+	[vertexshader]
+		code = \
+                void main()\
+                {\
+                    gl_TexCoord[0] = gl_MultiTexCoord0;\
+                    gl_Position = ftransform();\
+                }
+	[/vertexshader]
+
+	[pixelshader]
+		code = \
+                uniform sampler2D tex0;\
+                uniform vec2 texel0;\
+                \
+                float texScaler = texel0.y;\
+                float texOffset = -0.5 * texScaler;\
+                \
+                vec4 filter[7];\
+                \
+                void main(void)\
+                {\
+                    vec4 colorc = vec4(0.0,0.0,0.0,0.0);\
+                \
+                    filter[0] = vec4(0.0, -3.0, 0.0,  1.0/64.0);\
+                    filter[1] = vec4(0.0, -2.0, 0.0,  6.0/64.0);\
+                    filter[2] = vec4(0.0, -1.0, 0.0, 15.0/64.0);\
+                    filter[3] = vec4(0.0,  0.0, 0.0, 20.0/64.0);\
+                    filter[4] = vec4(0.0,  1.0, 0.0, 15.0/64.0);\
+                    filter[5] = vec4(0.0,  2.0, 0.0,  6.0/64.0);\
+                    filter[6] = vec4(0.0,  3.0, 0.0,  1.0/64.0);\
+                \
+                    int i;\
+                    for (i = 0; i < 7; i++)\
+                    {\
+                        colorc += texture2D(tex0,\
+                                            vec2(\
+                                                gl_TexCoord[0].x + filter[i].x * texScaler + texOffset,\
+                                                gl_TexCoord[0].y + filter[i].y * texScaler + texOffset)\
+                                                ) * 1.0;\
+                //                            filter[i].w;\
+                    }\
+                    colorc /= 7.0;\
+                    gl_FragColor = colorc;\
+                }
+	[/pixelshader]
+[/renderpass]
+
+#
+# bloom
+#
+[renderfeature]
+name=ERPF_PP_BLOOM
+[ERPL_POSTPROCESS]
+	pass=ERP_MAIN
+[/ERPL_POSTPROCESS]
+[/renderfeature]
+
+[renderpass]
+    feature = ERPF_PP_BLOOM
+    lang = glsl
+    quality = 100
+    pipeline=ERPL_POSTPROCESS
+    pass=ERP_MAIN
+    stage = ERPS_MAIN
+    numtextures = 2
+
+	[vertexshader]
+		code = \
+                void main()\
+                {\
+                    gl_TexCoord[0] = gl_MultiTexCoord0;\
+                    gl_Position = ftransform();\
+                }
+	[/vertexshader]
+
+
+	[pixelshader]
+		code = \
+                uniform sampler2D tex0;\
+                uniform sampler2D tex1;\
+                uniform float blendAmount;\
+                \
+                void main(void)\
+                {\
+                    vec4 colorc = texture2D(tex0, gl_TexCoord[0].xy);\
+                    vec4 alphac = texture2D(tex1, gl_TexCoord[0].xy);\
+                \
+                    // blend scene with blur\
+                //    gl_FragColor = (colorc * (1.0 - blendAmount)) + (alphac * blendAmount);\
+                    gl_FragColor = colorc + (alphac * blendAmount);\
+                }
+	[/pixelshader]
+
+    [param]
+        name = blendAmount
+        type = ERPPT_F32
+        size = 1
+        source = ERPPS_NODE
+        default = 0.8
+    [/param]
+[/renderpass]
+
+#
+# Depth-Of-Field
+#
+[renderfeature]
+name=ERPF_PP_DOF
+[ERPL_POSTPROCESS]
+	pass=ERP_MAIN
+[/ERPL_POSTPROCESS]
+[/renderfeature]
+
+[renderpass]
+    feature = ERPF_PP_DOF
+    lang = glsl
+    quality = 100
+    pipeline=ERPL_POSTPROCESS
+    pass=ERP_MAIN
+    stage = ERPS_MAIN
+    numtextures = 3
+
+	[vertexshader]
+		code = \
+                void main()\
+                {\
+                    gl_TexCoord[0] = gl_MultiTexCoord0;\
+                    gl_Position = ftransform();\
+                }
+	[/vertexshader]
+
+	[pixelshader]
+		code = \
+				uniform sampler2D tex0; // scene \
+				uniform sampler2D tex1; // blurred scene \
+				uniform sampler2D tex2; // depthmap \
+				\
+				uniform float focus; \
+				uniform float range; \
+				\
+				void main() \
+				{ \
+					vec4 base_color = texture2D(tex0, gl_TexCoord[0].st); \
+					vec4 blur_color = texture2D(tex1, gl_TexCoord[0].st); \
+					float dist = texture2D(tex2, gl_TexCoord[0].st).r; \
+					gl_FragColor = mix(base_color, blur_color, clamp(range * abs(focus - dist), 0.0, 1.0)); \
+				}
+	[/pixelshader]
+
+    [param]
+        name = focus
+        type = ERPPT_F32
+        size = 1
+        source = ERPPS_CAMERA
+        default = 0.25
+    [/param]
+
+    [param]
+        name = range
+        type = ERPPT_F32
+        size = 1
+        source = ERPPS_CAMERA
+        default = 1.0
+    [/param]
+[/renderpass]
+

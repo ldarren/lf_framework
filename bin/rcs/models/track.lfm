@@ -1,0 +1,50 @@
+# PyLFM Version (0, 3, 11)
+# Lightfeather LFMG Version 3
+# AUTHOR: 
+# COPYRIGHT: 
+# DESIGNER: Blender v248
+# MODIFIED: December 14, 2008
+[geometry]
+filename=track.lfmg
+name=track
+[/geometry]
+[mesh]
+name=Plane
+type=EPT_TRIANGLE_LIST
+vertexbuffer=track/Plane_vb0
+indexbuffer=track/Plane_ib0
+firstindex=0
+numindexes=3072
+[/mesh]
+[material]
+name=Material
+feature=ERPF_COLOR_ONLY
+[colormaterial]
+ambient=127,127,127,255
+diffuse=204,204,204,255
+emissive=0,0,0,255
+specular=255,255,255,255
+shininess=0
+[/colormaterial]
+[/material]
+[material]
+name=__Default_Material
+feature=ERPF_COLOR_ONLY
+[colormaterial]
+ambient=127,127,127,255
+diffuse=204,204,204,255
+emissive=0,0,0,255
+specular=255,255,255,255
+shininess=0
+[/colormaterial]
+[renderstate]
+type=ERST_CULLING
+enabled=false
+[/renderstate]
+[/material]
+[model]
+name=Plane
+mesh=Plane
+material=__Default_Material
+animationupdate=33
+[/model]

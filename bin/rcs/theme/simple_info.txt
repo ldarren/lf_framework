@@ -1,0 +1,2 @@
+The "simple" skin is based on "plastique", with different colors and sizes (for some controls).
+

@@ -1,0 +1,54 @@
+[material]
+name = Mat0
+pwname = Steel
+[colormaterial]
+ambient= 255 , 255 , 255 , 255
+diffuse= 245 , 245 , 245 , 255 
+specular= 153 , 153 , 153 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Black
+[colormaterial]
+ambient= 0 , 0 , 0 , 255
+diffuse= 0 , 0 , 0 , 255
+specular= 0 , 0 , 0 , 255
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[geometry]
+filename=cup-tea1.lfmg
+name=cup-tea1
+[/geometry]
+
+[mesh]
+name=Mesh0
+type=EPT_TRIANGLE_LIST
+vertexbuffer=cup-tea1/vMat0
+indexbuffer=cup-tea1/iMat0
+firstindex=0
+numindexes=11124
+[/mesh]
+
+
+[mesh]
+name=mOutline
+type=EPT_LINE_LIST
+vertexbuffer=cup-tea1/vOutline
+indexbuffer=cup-tea1/iOutline
+firstindex=0
+numindexes=1610
+[/mesh]
+
+[model]
+name=cup-tea1
+mesh=Mesh0
+mesh=mOutline
+material=Mat0
+material=Black
+[/model]

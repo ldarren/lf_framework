@@ -1,0 +1,141 @@
+P3D 0 3
+BaseSeed 5811
+BranchingAlg __None__
+StemModel __None__
+Material __None__
+VisRangeEnabled false
+VisRange 0.000000 1.000000
+BranchModelCount 1
+BranchingAlg Base
+RotAngle 0.191986
+StemModel Tube
+Length 10.000000
+LengthV 0.000000
+LengthOffsetDep CubicSpline
+CPCount 2
+Point 0.000000 1.000000
+Point 1.000000 1.000000
+AxisVariation 0.020000
+AxisResolution 5
+ProfileScaleBase 0.150000
+ProfileScaleCurve CubicSpline
+CPCount 4
+Point 0.000000 1.000000
+Point 0.296875 0.500000
+Point 0.548701 0.317568
+Point 1.000000 0.107143
+ProfileResolution 6
+PhototropismCurve CubicSpline
+CPCount 4
+Point 0.000000 0.500000
+Point 0.250000 0.535714
+Point 0.835938 0.535714
+Point 1.000000 0.428571
+BaseTexUMode 0
+BaseTexUScale 1.000000
+BaseTexVMode 1
+BaseTexVScale 4.000000
+Material Simple
+BaseColor 0.305882 0.317647 0.266667
+BaseTexture 07bark.tga
+DoubleSided false
+Transparent false
+BillboardMode __None__
+AlphaCtrlEnabled false
+AlphaFadeIn 0.000000
+AlphaFadeOut 0.000000
+VisRangeEnabled false
+VisRange 0.000000 1.000000
+BranchModelCount 2
+BranchingAlg Std
+Density 2.300000
+DensityV 0.200000
+Multiplicity 1
+RevAngle 1.570796
+RevAngleV 0.200000
+RotAngle 0.349066
+MinOffset 0.100000
+MaxOffset 1.000000
+DeclinationCurve CubicSpline
+CPCount 6
+Point 0.000000 0.000000
+Point 0.140625 0.107143
+Point 0.312500 0.178571
+Point 0.531250 0.250000
+Point 0.789063 0.214286
+Point 1.000000 0.000000
+DeclinationV 0.100000
+StemModel Quad
+Length 3.500000
+Width 3.500000
+Scaling CubicSpline
+CPCount 6
+Point 0.000000 0.285714
+Point 0.109375 0.678571
+Point 0.257813 0.607143
+Point 0.546875 0.857143
+Point 0.914063 0.285714
+Point 1.000000 0.000000
+SectionCount 1
+Curvature CubicSpline
+CPCount 2
+Point 0.000000 0.428571
+Point 1.000000 0.428571
+Thickness 1.000000
+Material Simple
+BaseColor 0.376471 0.454902 0.372549
+BaseTexture 04branch.tga
+DoubleSided true
+Transparent true
+BillboardMode __None__
+AlphaCtrlEnabled false
+AlphaFadeIn 0.000000
+AlphaFadeOut 0.000000
+VisRangeEnabled false
+VisRange 0.000000 1.000000
+BranchModelCount 0
+BranchingAlg Std
+Density 2.900000
+DensityV 0.200000
+Multiplicity 1
+RevAngle 1.570796
+RevAngleV 0.200000
+RotAngle 0.785398
+MinOffset 0.100000
+MaxOffset 1.000000
+DeclinationCurve CubicSpline
+CPCount 4
+Point 0.000000 0.464286
+Point 0.171875 0.250000
+Point 0.445313 0.321429
+Point 1.000000 0.000000
+DeclinationV 0.100000
+StemModel Quad
+Length 3.500000
+Width 3.500000
+Scaling CubicSpline
+CPCount 6
+Point 0.000000 0.321429
+Point 0.171875 0.464286
+Point 0.312500 0.642857
+Point 0.695313 0.464286
+Point 0.867188 0.285714
+Point 1.000000 0.000000
+SectionCount 1
+Curvature CubicSpline
+CPCount 2
+Point 0.000000 0.500000
+Point 1.000000 0.500000
+Thickness 1.000000
+Material Simple
+BaseColor 0.384314 0.454902 0.380392
+BaseTexture 04branch.tga
+DoubleSided true
+Transparent true
+BillboardMode __None__
+AlphaCtrlEnabled false
+AlphaFadeIn 0.000000
+AlphaFadeOut 0.000000
+VisRangeEnabled false
+VisRange 0.000000 1.000000
+BranchModelCount 0

@@ -1,0 +1,54 @@
+[material]
+name = Mat0
+pwname = 
+[colormaterial]
+ambient= 128 , 128 , 128 , 255
+diffuse= 106 , 106 , 106 , 255 
+specular= 26 , 26 , 26 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0111
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Black
+[colormaterial]
+ambient= 0 , 0 , 0 , 255
+diffuse= 0 , 0 , 0 , 255
+specular= 0 , 0 , 0 , 255
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[geometry]
+filename=BildschirmFuñ.lfmg
+name=BildschirmFuñ
+[/geometry]
+
+[mesh]
+name=Mesh0
+type=EPT_TRIANGLE_LIST
+vertexbuffer=BildschirmFuñ/vMat0
+indexbuffer=BildschirmFuñ/iMat0
+firstindex=0
+numindexes=12384
+[/mesh]
+
+
+[mesh]
+name=mOutline
+type=EPT_LINE_LIST
+vertexbuffer=BildschirmFuñ/vOutline
+indexbuffer=BildschirmFuñ/iOutline
+firstindex=0
+numindexes=2374
+[/mesh]
+
+[model]
+name=BildschirmFuñ
+mesh=Mesh0
+mesh=mOutline
+material=Mat0
+material=Black
+[/model]

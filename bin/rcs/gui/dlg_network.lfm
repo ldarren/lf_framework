@@ -1,0 +1,161 @@
+[gui]
+  [widget]
+    type=EGWT_WINDOW
+    id=0
+    position=0.000000, 0.000000, 332, 230
+    size=0.000000, 0.000000, 210, 170
+    minsize=0.000000, 0.000000, 32, 50
+    maxsize=0.000000, 0.000000, 0, 0
+    visible=true
+    enabled=true
+    movable=true
+    resizable=true
+    alpha=255
+    text=Window
+    closebutton=true
+    rollbutton=false
+    rolledup=false
+    topborder=true
+    leftborder=true
+    bottomborder=true
+    rightborder=true
+    [widget]
+      type=EGWT_LABEL
+      id=1
+      position=0.000000, 0.000000, 10, 10
+      size=0.000000, 0.000000, 64, 24
+      minsize=0.000000, 0.000000, 0, 0
+      maxsize=0.000000, 0.000000, 0, 0
+      visible=true
+      enabled=true
+      movable=false
+      resizable=false
+      alpha=255
+      text=Name:
+      color=0,0,0, 255
+      [alignment]
+        horizontal=EGAH_LEFT
+        vertical=EGAV_CENTER
+      [/alignment]
+    [/widget]
+    [widget]
+      type=EGWT_EDIT_BOX
+      id=3
+      position=0.000000, 0.000000, 58, 10
+      size=0.000000, 0.000000, 128, 24
+      minsize=0.000000, 0.000000, 0, 0
+      maxsize=0.000000, 0.000000, 0, 0
+      visible=true
+      enabled=true
+      movable=false
+      resizable=false
+      alpha=255
+      text=
+      readonly=false
+      passwordmode=false
+      returnmode=true
+    [/widget]
+    [widget]
+      type=EGWT_LABEL
+      id=4
+      position=0.000000, 0.000000, 10, 39
+      size=0.000000, 0.000000, 64, 24
+      minsize=0.000000, 0.000000, 0, 0
+      maxsize=0.000000, 0.000000, 0, 0
+      visible=true
+      enabled=true
+      movable=false
+      resizable=false
+      alpha=255
+      text=IP:
+      color=0,0,0, 255
+      [alignment]
+        horizontal=EGAH_LEFT
+        vertical=EGAV_CENTER
+      [/alignment]
+    [/widget]
+    [widget]
+      type=EGWT_EDIT_BOX
+      id=5
+      position=0.000000, 0.000000, 58, 39
+      size=0.000000, 0.000000, 128, 24
+      minsize=0.000000, 0.000000, 0, 0
+      maxsize=0.000000, 0.000000, 0, 0
+      visible=true
+      enabled=true
+      movable=false
+      resizable=false
+      alpha=255
+      text=
+      readonly=true
+      passwordmode=false
+      returnmode=true
+    [/widget]
+    [widget]
+      type=EGWT_LABEL
+      id=6
+      position=0.000000, 0.000000, 10, 68
+      size=0.000000, 0.000000, 64, 24
+      minsize=0.000000, 0.000000, 0, 0
+      maxsize=0.000000, 0.000000, 0, 0
+      visible=true
+      enabled=true
+      movable=false
+      resizable=false
+      alpha=255
+      text=Port:
+      color=0,0,0, 255
+      [alignment]
+        horizontal=EGAH_LEFT
+        vertical=EGAV_CENTER
+      [/alignment]
+    [/widget]
+    [widget]
+      type=EGWT_EDIT_BOX
+      id=7
+      position=0.000000, 0.000000, 58, 68
+      size=0.000000, 0.000000, 128, 24
+      minsize=0.000000, 0.000000, 0, 0
+      maxsize=0.000000, 0.000000, 0, 0
+      visible=true
+      enabled=true
+      movable=false
+      resizable=false
+      alpha=255
+      text=
+      readonly=false
+      passwordmode=false
+      returnmode=true
+    [/widget]
+    [widget]
+      type=EGWT_BUTTON
+      id=8
+      position=0.000000, 0.000000, 10, 114
+      size=0.000000, 0.000000, 64, 24
+      minsize=0.000000, 0.000000, 0, 0
+      maxsize=0.000000, 0.000000, 0, 0
+      visible=true
+      enabled=true
+      movable=false
+      resizable=false
+      alpha=255
+      text=Start
+      commandId=100
+    [/widget]
+    [widget]
+      type=EGWT_BUTTON
+      id=9
+      position=0.000000, 0.000000, 122, 113
+      size=0.000000, 0.000000, 64, 24
+      minsize=0.000000, 0.000000, 0, 0
+      maxsize=0.000000, 0.000000, 0, 0
+      visible=true
+      enabled=true
+      movable=false
+      resizable=false
+      alpha=255
+      text=Cancel
+      commandId=101
+    [/widget]
+  [/widget]
+[/gui]

@@ -1,0 +1,318 @@
+[material]
+name = Mat0
+pwname = Steel
+[colormaterial]
+ambient= 90 , 108 , 116 , 255
+diffuse= 86 , 104 , 111 , 255 
+specular= 54 , 65 , 70 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat1
+pwname = Steel
+[colormaterial]
+ambient= 255 , 255 , 255 , 255
+diffuse= 245 , 245 , 245 , 255 
+specular= 153 , 153 , 153 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat2
+pwname = Steel
+[colormaterial]
+ambient= 226 , 210 , 167 , 255
+diffuse= 217 , 202 , 160 , 255 
+specular= 136 , 126 , 100 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat3
+pwname = Steel
+[colormaterial]
+ambient= 197 , 177 , 139 , 255
+diffuse= 189 , 170 , 133 , 255 
+specular= 118 , 106 , 83 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat4
+pwname = Steel
+[colormaterial]
+ambient= 149 , 125 , 96 , 255
+diffuse= 143 , 120 , 92 , 255 
+specular= 89 , 75 , 58 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat5
+pwname = Steel
+[colormaterial]
+ambient= 180 , 126 , 101 , 255
+diffuse= 173 , 121 , 97 , 255 
+specular= 108 , 76 , 61 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat6
+pwname = Polished_Plastic
+[colormaterial]
+ambient= 255 , 255 , 255 , 255
+diffuse= 245 , 245 , 245 , 255 
+specular= 153 , 153 , 153 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat7
+pwname = brick01
+[colormaterial]
+ambient= 192 , 192 , 192 , 255
+diffuse= 192 , 192 , 192 , 255 
+specular= 192 , 192 , 192 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.3125
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat8
+pwname = 
+[colormaterial]
+ambient= 192 , 192 , 192 , 255
+diffuse= 192 , 192 , 192 , 255 
+specular= 192 , 192 , 192 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.3125
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat9
+pwname = Polished_Plastic
+[colormaterial]
+ambient= 149 , 125 , 96 , 255
+diffuse= 143 , 120 , 92 , 255 
+specular= 89 , 75 , 58 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat10
+pwname = Polished_Plastic
+[colormaterial]
+ambient= 180 , 126 , 101 , 255
+diffuse= 173 , 121 , 97 , 255 
+specular= 108 , 76 , 61 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Mat11
+pwname = Steel
+[colormaterial]
+ambient= 0 , 0 , 0 , 255
+diffuse= 0 , 0 , 0 , 255 
+specular= 0 , 0 , 0 , 255
+emissive= 0 , 0 , 0 , 255
+shininess=0.0200
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[material]
+name = Black
+[colormaterial]
+ambient= 0 , 0 , 0 , 255
+diffuse= 0 , 0 , 0 , 255
+specular= 0 , 0 , 0 , 255
+[/colormaterial]
+feature=ERPF_COLOR_ONLY
+[/material]
+
+[geometry]
+filename=Kelja01.lfmg
+name=Kelja01
+[/geometry]
+
+[mesh]
+name=Mesh0
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kelja01/vMat0
+indexbuffer=Kelja01/iMat0
+firstindex=0
+numindexes=4557
+[/mesh]
+
+[mesh]
+name=Mesh1
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kelja01/vMat1
+indexbuffer=Kelja01/iMat1
+firstindex=0
+numindexes=24150
+[/mesh]
+
+[mesh]
+name=Mesh2
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kelja01/vMat2
+indexbuffer=Kelja01/iMat2
+firstindex=0
+numindexes=7269
+[/mesh]
+
+[mesh]
+name=Mesh3
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kelja01/vMat3
+indexbuffer=Kelja01/iMat3
+firstindex=0
+numindexes=702
+[/mesh]
+
+[mesh]
+name=Mesh4
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kelja01/vMat4
+indexbuffer=Kelja01/iMat4
+firstindex=0
+numindexes=432
+[/mesh]
+
+[mesh]
+name=Mesh5
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kelja01/vMat5
+indexbuffer=Kelja01/iMat5
+firstindex=0
+numindexes=1116
+[/mesh]
+
+[mesh]
+name=Mesh6
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kelja01/vMat6
+indexbuffer=Kelja01/iMat6
+firstindex=0
+numindexes=4182
+[/mesh]
+
+[mesh]
+name=Mesh7
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kelja01/vMat7
+indexbuffer=Kelja01/iMat7
+firstindex=0
+numindexes=276
+[/mesh]
+
+[mesh]
+name=Mesh8
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kelja01/vMat8
+indexbuffer=Kelja01/iMat8
+firstindex=0
+numindexes=312
+[/mesh]
+
+[mesh]
+name=Mesh9
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kelja01/vMat9
+indexbuffer=Kelja01/iMat9
+firstindex=0
+numindexes=3264
+[/mesh]
+
+[mesh]
+name=Mesh10
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kelja01/vMat10
+indexbuffer=Kelja01/iMat10
+firstindex=0
+numindexes=876
+[/mesh]
+
+[mesh]
+name=Mesh11
+type=EPT_TRIANGLE_LIST
+vertexbuffer=Kelja01/vMat11
+indexbuffer=Kelja01/iMat11
+firstindex=0
+numindexes=90
+[/mesh]
+
+
+[mesh]
+name=mOutline
+type=EPT_LINE_LIST
+vertexbuffer=Kelja01/vOutline
+indexbuffer=Kelja01/iOutline
+firstindex=0
+numindexes=19900
+[/mesh]
+
+[model]
+name=Kelja01
+mesh=Mesh0
+mesh=Mesh1
+mesh=Mesh2
+mesh=Mesh3
+mesh=Mesh4
+mesh=Mesh5
+mesh=Mesh6
+mesh=Mesh7
+mesh=Mesh8
+mesh=Mesh9
+mesh=Mesh10
+mesh=Mesh11
+mesh=mOutline
+material=Mat0
+material=Mat1
+material=Mat2
+material=Mat3
+material=Mat4
+material=Mat5
+material=Mat6
+material=Mat7
+material=Mat8
+material=Mat9
+material=Mat10
+material=Mat11
+material=Black
+[/model]

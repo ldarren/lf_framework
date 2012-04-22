@@ -1,0 +1,348 @@
+[material]
+name=LFmap/1_concretewall06.png
+[colormaterial]
+diffuse=31,41,40, 255
+ambient=255,255,255, 255
+specular=117,117,117, 255
+emissive=85,85,85, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=concretewall06.png
+name=concretewall06.png
+type=2D
+[/texture]
+[texture]
+filename=lmhall.tga
+name=lmhall.tga
+type=2D
+[/texture]
+feature=ERPF_LIGHTMAP4
+[/material]
+[material]
+name=LFmap/2_422.jpg
+[colormaterial]
+diffuse=52,50,48, 255
+ambient=255,255,255, 255
+specular=117,117,117, 255
+emissive=85,85,85, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=422.jpg
+name=422.jpg
+type=2D
+[/texture]
+[texture]
+filename=lmhall.tga
+name=lmhall.tga
+type=2D
+[/texture]
+feature=ERPF_LIGHTMAP4
+[/material]
+[material]
+name=LFmap/3_concrete_ceiling.jpg
+[colormaterial]
+diffuse=38,40,25, 255
+ambient=255,255,255, 255
+specular=63,63,63, 255
+emissive=25,25,25, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=concrete_ceiling.jpg
+name=concrete_ceiling.jpg
+type=2D
+[/texture]
+[texture]
+filename=lmpasses.tga
+name=lmpasses.tga
+type=2D
+[/texture]
+feature=ERPF_LIGHTMAP4
+[/material]
+[material]
+name=LFmap/4_stonetiles_joseph.jpg
+[colormaterial]
+diffuse=68,64,53, 255
+ambient=255,255,255, 255
+specular=63,63,63, 255
+emissive=70,70,70, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=stonetiles_joseph.jpg
+name=stonetiles_joseph.jpg
+type=2D
+[/texture]
+[texture]
+filename=lmfloor.tga
+name=lmfloor.tga
+type=2D
+[/texture]
+feature=ERPF_LIGHTMAP4
+[/material]
+[material]
+name=LFmap/5_concretewall06.png
+[colormaterial]
+diffuse=128,140,138, 255
+ambient=255,255,255, 255
+specular=63,63,63, 255
+emissive=80,80,80, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=concretewall06.png
+name=concretewall06.png
+type=2D
+[/texture]
+[texture]
+filename=lmfeather.tga
+name=lmfeather.tga
+type=2D
+[/texture]
+feature=ERPF_LIGHTMAP4
+[/material]
+[material]
+name=LFmap/6_concretewall08.png
+[colormaterial]
+diffuse=158,163,125, 255
+ambient=255,255,255, 255
+specular=63,63,63, 255
+emissive=85,85,85, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=concretewall08.png
+name=concretewall08.png
+type=2D
+[/texture]
+[texture]
+filename=lmlight.tga
+name=lmlight.tga
+type=2D
+[/texture]
+feature=ERPF_LIGHTMAP4
+[/material]
+[material]
+name=LFmap/7_concrete_floor.jpg
+[colormaterial]
+diffuse=65,65,65, 255
+ambient=255,255,255, 255
+specular=117,117,117, 255
+emissive=85,85,85, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=concrete_floor.jpg
+name=concrete_floor.jpg
+type=2D
+[/texture]
+[texture]
+filename=lmceiling.tga
+name=lmceiling.tga
+type=2D
+[/texture]
+feature=ERPF_LIGHTMAP4
+[/material]
+[material]
+name=LFmap/8_938.jpg
+[colormaterial]
+diffuse=114,114,114, 255
+ambient=255,255,255, 255
+specular=63,63,63, 255
+emissive=85,85,85, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=938.jpg
+name=938.jpg
+type=2D
+[/texture]
+[texture]
+filename=lmhallwalls.tga
+name=lmhallwalls.tga
+type=2D
+[/texture]
+feature=ERPF_LIGHTMAP4
+[/material]
+[material]
+name=LFmap/9_concretewall08.png
+[colormaterial]
+diffuse=55,55,55, 255
+ambient=255,255,255, 255
+specular=117,117,117, 255
+emissive=85,85,85, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=concretewall08.png
+name=concretewall08.png
+type=2D
+[/texture]
+[texture]
+filename=lmhallwalls.tga
+name=lmhallwalls.tga
+type=2D
+[/texture]
+feature=ERPF_LIGHTMAP4
+[/material]
+[material]
+name=LFmap/light_lamp.tga
+[colormaterial]
+diffuse=204,204,204, 255
+ambient=255,255,255, 255
+specular=127,127,127, 255
+emissive=15,15,15, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=lamp.tga
+name=lamp.tga
+type=2D
+[/texture]
+[texture]
+filename=lamp.tga
+name=lamp.tga
+type=2D
+[/texture]
+feature=ERPF_LIGHTMAP4
+[/material]
+[material]
+name=LFmap/light.001_lamp.tga.001
+[colormaterial]
+diffuse=204,204,204, 255
+ambient=255,255,255, 255
+specular=127,127,127, 255
+emissive=15,15,15, 255
+shininess=0
+[/colormaterial]
+[texture]
+filename=lamp.tga
+name=lamp.tga
+type=2D
+[/texture]
+[texture]
+filename=lamp.tga
+name=lamp.tga
+type=2D
+[/texture]
+feature=ERPF_LIGHTMAP4
+[/material]
+[geometry]
+filename=LFmap.lfmg
+name=LFmap
+[/geometry]
+[mesh]
+name=LFmap/mesh0
+type=EPT_TRIANGLE_LIST
+vertexbuffer=LFmap/vtx0
+indexbuffer=LFmap/idx0
+firstindex=0
+numindexes=2592
+[/mesh]
+[mesh]
+name=LFmap/mesh1
+type=EPT_TRIANGLE_LIST
+vertexbuffer=LFmap/vtx1
+indexbuffer=LFmap/idx1
+firstindex=0
+numindexes=102
+[/mesh]
+[mesh]
+name=LFmap/mesh2
+type=EPT_TRIANGLE_LIST
+vertexbuffer=LFmap/vtx2
+indexbuffer=LFmap/idx2
+firstindex=0
+numindexes=300
+[/mesh]
+[mesh]
+name=LFmap/mesh3
+type=EPT_TRIANGLE_LIST
+vertexbuffer=LFmap/vtx3
+indexbuffer=LFmap/idx3
+firstindex=0
+numindexes=513
+[/mesh]
+[mesh]
+name=LFmap/mesh4
+type=EPT_TRIANGLE_LIST
+vertexbuffer=LFmap/vtx4
+indexbuffer=LFmap/idx4
+firstindex=0
+numindexes=714
+[/mesh]
+[mesh]
+name=LFmap/mesh5
+type=EPT_TRIANGLE_LIST
+vertexbuffer=LFmap/vtx5
+indexbuffer=LFmap/idx5
+firstindex=0
+numindexes=432
+[/mesh]
+[mesh]
+name=LFmap/mesh6
+type=EPT_TRIANGLE_LIST
+vertexbuffer=LFmap/vtx6
+indexbuffer=LFmap/idx6
+firstindex=0
+numindexes=477
+[/mesh]
+[mesh]
+name=LFmap/mesh7
+type=EPT_TRIANGLE_LIST
+vertexbuffer=LFmap/vtx7
+indexbuffer=LFmap/idx7
+firstindex=0
+numindexes=204
+[/mesh]
+[mesh]
+name=LFmap/mesh8
+type=EPT_TRIANGLE_LIST
+vertexbuffer=LFmap/vtx8
+indexbuffer=LFmap/idx8
+firstindex=0
+numindexes=192
+[/mesh]
+[mesh]
+name=LFmap/mesh9
+type=EPT_TRIANGLE_LIST
+vertexbuffer=LFmap/vtx9
+indexbuffer=LFmap/idx9
+firstindex=0
+numindexes=192
+[/mesh]
+[mesh]
+name=LFmap/mesh10
+type=EPT_TRIANGLE_LIST
+vertexbuffer=LFmap/vtx10
+indexbuffer=LFmap/idx10
+firstindex=0
+numindexes=1140
+[/mesh]
+[model]
+name=LFmap
+mesh=LFmap/mesh0
+mesh=LFmap/mesh1
+mesh=LFmap/mesh2
+mesh=LFmap/mesh3
+mesh=LFmap/mesh4
+mesh=LFmap/mesh5
+mesh=LFmap/mesh6
+mesh=LFmap/mesh7
+mesh=LFmap/mesh8
+mesh=LFmap/mesh9
+mesh=LFmap/mesh10
+material=LFmap/1_concretewall06.png
+material=LFmap/2_422.jpg
+material=LFmap/3_concrete_ceiling.jpg
+material=LFmap/4_stonetiles_joseph.jpg
+material=LFmap/5_concretewall06.png
+material=LFmap/6_concretewall08.png
+material=LFmap/7_concrete_floor.jpg
+material=LFmap/8_938.jpg
+material=LFmap/9_concretewall08.png
+material=LFmap/light_lamp.tga
+material=LFmap/light.001_lamp.tga.001
+[/model]

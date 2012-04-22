@@ -1,0 +1,70 @@
+# PyLFM Version (0, 3, 11)
+# Lightfeather LFMG Version 3
+# AUTHOR: 
+# COPYRIGHT: 
+# DESIGNER: Blender v248
+# MODIFIED: February 07, 2009
+[geometry]
+filename=player.lfmg
+name=player
+[/geometry]
+[geometry]
+filename=player_skel.lfmg
+[/geometry]
+[geometry]
+filename=player_anim.lfmg
+[/geometry]
+[mesh]
+name=atog
+type=EPT_TRIANGLE_LIST
+vertexbuffer=player/atog_vb0
+indexbuffer=player/atog_ib0
+firstindex=0
+numindexes=5730
+[/mesh]
+[material]
+name=EyeMat
+feature=ERPF_COLOR_ONLY
+[colormaterial]
+ambient=127,127,127,255
+diffuse=179,195,234,255
+emissive=0,0,0,255
+specular=255,255,255,255
+shininess=0
+[/colormaterial]
+[/material]
+[material]
+name=SkinMat
+feature=ERPF_COLOR_ONLY
+[colormaterial]
+ambient=127,127,127,255
+diffuse=179,195,234,255
+emissive=0,0,0,255
+specular=255,255,255,255
+shininess=0
+[/colormaterial]
+[renderstate]
+type=ERST_CULLING
+enabled=false
+[/renderstate]
+[/material]
+[animationtiming]
+name=Armature_wave
+[key]
+time=40
+pose=0
+[/key]
+[key]
+time=440
+pose=1
+[/key]
+[key]
+time=800
+pose=2
+[/key]
+[/animationtiming]
+[model]
+name=atog
+mesh=atog
+material=SkinMat
+[/model]
